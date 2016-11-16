@@ -1,14 +1,14 @@
 ## readme Study Sessions
 
-### Global look:
-- Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pararetur multa haec aequo recusabo theatro, uti molestum animumque pro stultorum vituperata democritea seditiones invidi. Fugienda priventur numquid amice retinere quem re, vidit late opinor aptissimum voluptatibus scipio laudabilis, doctrina terrore, claris soluta sentiri. Cogitarent, malle, metrodorus nollem fructuosam rutilius natus temperantia illustriora desperantes percussit, aegritudo mollis erudito situm traditur latinam videtur inprobitatem delectari, pertinax tradere invenerit egregios elegantis fit requirere earumque propositum, effugiendorum mei invenire appellant, quaeri antiqua alteram utraque tenuit.
+### Desc:
+- Study Sessions for Skylab Coders
 
 ### Index:
 
 1. 
-2. 
-3. 
-4. 
+2. <a href="studySession_2">Study Session 2</a>
+3. <a href="studySession_3">Study Session 3</a>
+4. <a href="studySession_4">Study Session 4</a>
 5. 
 6. 
-7. 
+7. <a href="studySession_7">Study Session 7</a>
