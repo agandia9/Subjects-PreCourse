@@ -91,27 +91,27 @@ d) We can do a calculator, so let's do it! first, do a sum with two numbers
 console.log(sum) //The sum of 7+3 is 10
 ```
 
-d1 Add the rest...
+d1) Add the rest...
 ```
 console.log(sum + rest) // The sum and rest of 7 and 3 is 10 and 4 
 ```
 
-d2 And the multicity
+d2) And the multicity
 ```
 console.log(sum + rest + mult) // 10, 4 and 21
 ```
 
-d3 Finally, the div
+d3) Finally, the division
 ```
 console.log(sum + rest + mult + div) // 10, 4, 21 and 2.3
 ```
 
-d) Now, try to execute a multiplicity like 10 * "hour", what value is returned?
+d4) Now, try to execute a multiplicity like 10 * "hour", what value is returned?
 ```
 console.log(10*"hour") // ....?!
 ```
 
-e) Don't worry, we can catch this exception, you can controle it with if conditional?
+e) Don't worry, we can catch this error, you can controle it with **if conditional**?
 ```
 console.log(10*"hour") // You can't do this operation!
 ```
@@ -123,12 +123,60 @@ console.log(10) // I return the same value...
 
 ### Dates
 
+a) Hey! You can tell me what year we are?!
+*Declare a object Date using var d = new Date();*
+*This objects contains all information about date, and of course, the methods that we can use for this exercises.*
+```
+console.log(d) // We are in 2016
+```
+
+b) Sorry... I lost the memory... In what day of weekend?
+```
+console.log(d) // Itchhh... Wake up! We are living in day 3!
+```
+
+c) You can tell me the number of seconds between your birthday to now?
+```
+console.log(a) // 19827379 seconds since my birthday
+```
+
+d) And days? 
+```
+console.log(b) // 50098 days
+```
+
+e) You can do a comparator between one date and now? Show a message if one date is before or after 10 June, 1986
+```
+now = new Date();
+someday = new Date();
+someday.set....(1986, 5, 10)
+console.log(...) // Today is after someday
+```
+
+f) You can do other comparator... only with years? Do multiple comparators and sshow the messages
+```
+console.log(...)
+// 1987 is before now
+// 2980 is after now
+// 2016 is now!
+// 1098 is before now
+// This is not a year...
+```
+
+
 ---
 
-## Challenge!! 
+## Free Challenge!! 
 
-=> 
+=> You can do a person comparator? Specify the name, age, city and birthday using methods for get the info. Specify 5 persons and do some comparations betwheen they and show some messages.
+```
 
+// Silvia, who have 15 years is older than David, who id 34 years
+// If Silvia was 20 years older, David would be younger than Silvia
+// But the younger of they is Alex, who is 3 years old
+// The older is Ferran, who is 90 years old, and between he and Alex are 87 years difference!
+
+```
 
 
 
