@@ -8,7 +8,7 @@ https://js.do/ **<- compile and execute your code online**
 
 **BINGO!**
 a) Let's start! Let's make a simply Bingo, okay?
-Let's start , we have a card with numbers distributed in five columns by three rows, each turn a ball is taught with a number, if the number displayed matches any of the card , it will display a message.
+We have a card with numbers distributed in five columns by three rows, each turn a ball is taught with a number, if the number displayed matches any of the card , it will display a message.
 
 b) Now we want change the number matched to "X" or 0, and display a message when all row is matched. LINE!
 

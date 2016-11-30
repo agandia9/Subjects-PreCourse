@@ -10,10 +10,3 @@ http://www.w3schools.com/js/functions.asp
 
 
 ```
-
-Without parameter
-
-a) 
-
-
-With parameter
