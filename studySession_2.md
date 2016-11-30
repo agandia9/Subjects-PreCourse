@@ -1,6 +1,6 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 ## JS Objects
-Reference:
+####Reference:
 http://www.w3schools.com/js/js_objects.asp
 
 *Simple JS Object for example.*
@@ -15,7 +15,7 @@ var student = {
 ```
 
 *Working with objects*
-Reference:
+#### Reference:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 
 ---
