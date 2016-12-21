@@ -14,9 +14,19 @@ Do the semantic markup for the following image(**no styles**, only semantic HTML
 
 ---
 
+![snapshot](img/1_2.png)
+
+--- 
+
+![snapshot](img/1_3.jpg)
+
+---
+
+![snapshot](img/1_4.png)
+
+---
 
 ![snapshot](img/shot4.png)
-
 
 ---
 
