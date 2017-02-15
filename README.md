@@ -10,5 +10,5 @@
 3. <a href="studySession_3.md">Study Session 3 - Pair Programming</a>
 4. <a href="studySession_4.md">Study Session 4 - Challenges</a>
 5. <a href="studySession_5.md">Study Session 5 - Functions</a>
-6. <a href="studySession_5.md">Study Session 5 - Indiv. Challenges</a>
+6. <a href="studySession_6.md">Study Session 6 - Indiv. Challenges</a>
 7. <a href="studySession_7.md">Study Session 7 - HTML & CSS </a>
