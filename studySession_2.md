@@ -1,5 +1,5 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
-## JS Objects
+## JS Objects{😎}
 ####Reference:
 http://www.w3schools.com/js/js_objects.asp
 
@@ -15,8 +15,12 @@ console.log(student.name) // "David Aughan"
 ```
 
 *Working with objects*
-#### Reference:
+#### Reference:🤓
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
+
+http://javascript.info/tutorial/objects
+
+https://www.w3.org/wiki/Objects_in_JavaScript //Try to do the exercise of calculate the area of triangle 
 
 ---
 
