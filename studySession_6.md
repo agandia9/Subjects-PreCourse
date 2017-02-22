@@ -3,6 +3,7 @@
 ## Challenges Study Sessions
  
 1) Calculator! 15/02 -> 21/02➗
+
 Make a calculator, a single function program to which you will pass two numbers, and will display by console its sum, subtraction, multiplication and division. The results should be shown only with 3 decimals at most (if exist...) and contemplate that if, the user enters anything other thing than numbers, it should show an error
 
 As EXTRA objectives:
@@ -20,13 +21,14 @@ Good luck!
 ---
 
 2) Skylab Airlines! 22/02 - 28/02 ✈️🛩
+
 Make the **interface of an airline**, this airline has 10 flights available for today (In object format), to begin with, flights are declared globally, when the function is called...:
-. A message will be displayed *welcoming the user*,
-. The user can see a *list of flights* in a simple but comfortable message,
-. The user can know which is the *most expensive* flight and which is the *cheapest*,
-. What is the average price of flights for today,
-. How many flights have *stopovers*,
-. And knowing that the *last 5 IDs* are the last flights of the day, shows the user the last destinations (only the name)
+- A message will be displayed *welcoming the user*,
+- The user can see a *list of flights* in a simple but comfortable message,
+- The user can know which is the *most expensive* flight and which is the *cheapest*,
+- What is the average price of flights for today,
+- How many flights have *stopovers*,
+- And knowing that the *last 5 IDs* are the last flights of the day, shows the user the last destinations (only the name)
 
 **PRO!:**
 
