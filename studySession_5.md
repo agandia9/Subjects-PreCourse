@@ -1,123 +1,119 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
-## Functions
+## Functions JS
 
-http://www.w3schools.com/js/functions.asp
+_Resources to check:
+
+- http://www.w3schools.com/js/functions.asp
+- http://helephant.com/2008/08/23/javascript-anonymous-functions/
+- https://teamtreehouse.com/community/why-call-consolelog-on-a-function-when-its-already-logged-to-the-console-seems-redundant-same-effect
+- http://stackoverflow.com/questions/21020608/difference-between-console-log-and-return-in-javascript
 
 *Simple JS Function for example.*
 
-```
+```javascript
 var x = myFunction(4, 3);
 
 function myFunction(a, b) {
     return a * b;
 }
 
-```
-
-
-a) First we can do a basically sum, you can do it? Write a function and call it for see the result
-```
-function(){} // 2+2=4
-```
-
-b) Then, add the rest.
-```
-function(){} // 2+2=4, 2-2=0
-```
-
-c) And add the multiplication and division
-```
-function(){} // 2+2=4, 2-2=0, ...4, ...1
-```
-
-d) Add a message that execute with this function, in this message add the result of the previous operations
-```
-function(){} // The results are... 
-```
-
-e) Now, try give a name to out function and call it
-```
-var MyFunction = ...
-
-```
-
-f) Now try to declare the numbers out of function and pass they as a parameter.
-```
-var a ...
-var b ...
-function(a,b)
-```
-
-g) Now, delete the numbers, how we can call this function and pass the parameters in the call? (You can delete now the message string created in exercise **d**)
-```
-function(a,b)...{}
-myFunction(a,b);
+var y = function myFunction(a, b) {
+    console.log(a * b)
+}
 
 ```
 
 
-h) Try to generate random numbers out of a our function and operate with they, this numbers should be passed as a parameter
+a) First we do a function that salute us, try to pass your name as param of function and print out for console.
+```javascript
+console.log('hello + myName')//output: 'hello myName'
 ```
-    var randomA=...
-    var randomB=...
 
-    function calculator(randomA,randomB){
-        .
-        .
-        .
-        return something, somethingMore
-    }
+b) Try to RETURN this same values instead of console.log()
+```javascript
+return 'hello + myName' // output: 'hello myName'
+```
+
+c) Now, add your age and **return** it with your name too.
+
+```javascript
+return 'myMessage' //output: 'hello myName, you're myAge years old.'
+```
+
+d) Equal your function to one var and execute it.
+```javascript
+var MyFunction = ... //output: 'hello myName, you're myAge years old.'
+
+```
+
+e) Now, try to declare other function and assign it result to other variable called myAge, and try to print the result of both functions in one line.
+```javascript
+myName() + myAge() //output: IronMan 40
+```
+
+f) Now try to declare the vars and pass as a parameter.
+```javascript
+var...
+var...
+myName(param1) + myAge(param2) //output: IronMan 40
+
+```
+
+g) Try to englobe in one function both vars and execute it, the output should be the same.
+
+```javascript
+function ... (){
+    var x = myName(param1)
+    var y = myAge(param2)
+    return x + y
+} //output: IronMan 40
+```
+
+
+h) Try to generate random numbers in other function and pass as parameter to function that return the age.
+```javascript
+return x + y // output: IronMan 6457689
 ```
 
 http://www.w3schools.com/jsref/jsref_random.asp
 
-i) Now, try to return the results of the calculate function to other function and show the results
-
+i) Now, limit the random from 0 to 50. Say one message if the output age is < 20 and other if > 21
+```javascript
+return x + y // output: IronMan 3...Sure you're Tony Stark?
 ```
-function callCalculator(){
-    var randomA
-    var randomB
-    calculator(randomA,randomB){
-        return something, somethingMore
-    }
-}
+
+j) Now, the function that receive the name, modify it and concatenate one string to the random num and return both
+```javascript
+return x + y // output: Tony Stark...aka IRONMAN, 34...Sure you're Tony Stark? 
 ```
 
 
-j) Now, try to return this results as a String for show a message.
-```
-function callCalculator(){
-    .
-    .
-    .
-    return string;
-}
+k) Now, change the return of the father function for console.log and show both child functions returns in pretty string
+```javascript
+return x + y // output: The first function returns: 'Tony Stark...aka IRONMAN', The second function returns: '34...Sure you're Tony Stark?' 
 ```
 
-k) Try to catch the errors if the number passed to our calculator function is a NaN and return error if this happen.
-
-l) And, try to catch if the number is undefined or null, and show other error as a message.
-
-m) Let's make this a little bit more complicated... The random numbers should be generate in other diferent function.. return to our father function and passed as a parameter to our calculate function
+l) Try to catch the error if the Name passed to our child function... if is not IronMan, show message.
+```javascript
+return x + y // output: The first function returns: 'Tony Stark...aka IRONMAN', The second function returns: '34...Sure you're Tony Stark?' 
 ```
-function Generate(){
+
+
+m) Let's make this a little bit more complicated... The random numbers should be generate in other diferent function.. return to our father function and passed as a parameter to our second function
+```javascript
+function GenerateRandom(){
     ...
-    return randomNumbers.
+    return randomNumber.
 }
-
 function father(){
-    Generate();
-    calculator(randomNumbers){
-        .
-        .
-        .
-    }
+    GenerateRandom();
+    return x()...
 }
 ```
 
 n) Then, for get all our program separated in functions, try to slice all functions, in the principal function you must only have the calls to this functions.
-```
+```javascript
 function father(){
     myFunction();
     myOtherFunction();
@@ -126,16 +122,11 @@ function father(){
 
 ```
 
-ñ) Now, try to push the results of calculator in array and pass as a parameter instead as a var like always
+ñ) Now, try to push the results of callfunctions in array and return one string like always
 
-o) Create other function for calculate the average of all Calculator results and call it the last position, show the average just after all other callings
-```
-// .........And the average is X
-```
+o) Create other function that call to our father function, this separated function uses the array of results and push other string like: I'M CALLED FROM THE OTHER SIDE!!
 
-p) Now, try to compare two averages, averages that you get after call two times the father function and of course, are different. Print what average is bigger.
+p) Now, try to call this function to times, what random Num of those two calls is bigger? 
 
 
-
----
 
