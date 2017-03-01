@@ -65,6 +65,48 @@ var flights = [
 console.log(flights[0].to) //output: New York
 ```
 
+3) BINGO!
+
+Make a Bingo game.
+
+The user must introduce it's name and make a salute.
+The program, in first turn, must show a card with random numbers without repeats, distributed in five columns by three rows, each turn a ball is taught with a number, if the number displayed matches any of the card, change the number matched to "X" or 0 and show again the card with the matched numbers changed at the end of turn.
+
+The program should ask to user if wants continue with next turn, showing one different numbers every turn. Finally, display a message when all row is matched. **LINE!**
+Of course, when all card numbers are matched the program should say **BINGO** and finish the game.
+
+When the game is over, the program should say in how much turns you completed the game.
+
+**Pro**
+
+- Ask to user, when the card is showed, if really wants this card or wants generate other, continue with game when user say 'yes'.
+- Establish a points system, if the game ends in less turns, more points(at your decision)! If the luck is not at your side... less points :(
+- Before starts the game, show to user the System points and ask to user if proceed to start the game.
+- Ranking of users.
+- Show the top 3 user with higher points
+
+Resources_
+http://dlevin.pcprofessor.net/javaScript/bingo/bingo.html
+https://www.w3schools.com/jsref/jsref_random.asp
+
+Hint_
+```javascript
+var bingoCard = [
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    //next line
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false},
+    {number: randomNumber, matched: false}
+]
+```
+
+
 
 
 

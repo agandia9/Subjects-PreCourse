@@ -6,14 +6,6 @@ https://codepad.remoteinterview.io/ **<- co-working online tool**
 
 https://js.do/ **<- compile and execute your code online**
 
-**BINGO!**
-a) Let's start! Let's make a simply Bingo, okay?
-We have a card with numbers distributed in five columns by three rows, each turn a ball is taught with a number, if the number displayed matches any of the card , it will display a message.
-
-b) Now we want change the number matched to "X" or 0, and display a message when all row is matched. LINE!
-
-c) So, after this, we want do the same with all card, said BINGO when all numbers are GONE.
-
 **Rock, Paper, Scissors in JavaScript**
 d)We want do this famous game in JS... The user must choose one posibility and the computer other, display who wins in a message.
 
