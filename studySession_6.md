@@ -65,14 +65,17 @@ var flights = [
 console.log(flights[0].to) //output: New York
 ```
 
-3) BINGO!
+---
+
+3) BINGO GAME! 1/03 - 8/03 🎲🎰
 
 Make a Bingo game.
 
-The user must introduce it's name and make a salute.
-The program, in first turn, must show a card with random numbers without repeats, distributed in five columns by three rows, each turn a ball is taught with a number, if the number displayed matches any of the card, change the number matched to "X" or 0 and show again the card with the matched numbers changed at the end of turn.
+The user must introduce it's name and the program make a salute.
+The program, in first turn, must show a card with random numbers without repeats, distributed in five columns by three rows, each turn a ball is taught with other random number, if the number displayed matches any of the card, change the number of card matched to "X" or 0 and show again the card with the matched numbers changed at the end of turn, say to user how much numbers are matched to now.
 
-The program should ask to user if wants continue with next turn, showing one different numbers every turn. Finally, display a message when all row is matched. **LINE!**
+The program should ask to user if wants continue with next turn or ends the game, if user continue, showing one different number every turn. Finally, display a message when all **ROW** is matched. **LINE X MATCHED!**
+
 Of course, when all card numbers are matched the program should say **BINGO** and finish the game.
 
 When the game is over, the program should say in how much turns you completed the game.
