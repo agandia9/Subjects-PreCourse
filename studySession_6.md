@@ -79,14 +79,16 @@ The program should ask to user if wants continue with next turn or ends the game
 Of course, when all card numbers are matched the program should say **BINGO** and finish the game.
 
 When the game is over, the program should say in how much turns you completed the game.
+Ask to user, when the game is over, if wants play again.
 
-**Pro**
-
+**Pro** 👊🏼
+- If user say 'play again', ask the name again...
 - Ask to user, when the card is showed, if really wants this card or wants generate other, continue with game when user say 'yes'.
 - Establish a points system, if the game ends in less turns, more points(at your decision)! If the luck is not at your side... less points :(
 - Before starts the game, show to user the System points and ask to user if proceed to start the game.
 - Ranking of users.
 - Show the top 3 user with higher points
+- Show how much games played every user.
 
 Resources_
 http://dlevin.pcprofessor.net/javaScript/bingo/bingo.html
