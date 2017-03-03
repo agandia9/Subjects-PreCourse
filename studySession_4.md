@@ -1,8 +1,8 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
-## Challenges!
+## Final Challenges (JS)!
 
-a) **FINAL!**We turn back to numbers...
-So, we want do a programm that execute the Fibonacci serie
+a) We turn back to numbers...
+So, we want do a programm that execute the **Fibonacci** serie
 https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 
 Hint_
