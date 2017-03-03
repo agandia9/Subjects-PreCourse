@@ -5,7 +5,6 @@ a) We turn back to numbers...
 So, we want do a programm that execute the **Fibonacci** serie
 https://www.mathsisfun.com/numbers/fibonacci-sequence.html
 
-Hint_
 ```javascript
 function fibo(){}
 // output: 0 1 1 2 3 5 8...
@@ -17,7 +16,6 @@ a3) Now, insert all results in array and show to the user
 
 a4) Now the user should be abble to specify the position number of fibo serie it wants to see.
 
-Hint_
 ```javascript
 function fibo(10){}
 //... 55 - pos 10º
@@ -40,6 +38,8 @@ function fiboPymamid(num){}
 0 1 
 0
 ```
+
+---
 
 b) **Simple Scripting program**. Create a program that transform a 4 number values code to diferents positions, making a new code.
 ```javascript
@@ -70,9 +70,9 @@ b4) Now, do the DECRYPT function, call it before ends the codeScript function fo
 function codeScript(code1, code2){... codeDecrypt(code1,code2)}
 ```
 
+---
 
-c) **Super-Challenge!!**
-Create a program that use the Roman form for encrypt messages, how is that? Simple. If you have SKYLAB, the encrypted form is  SLKAYB...
+c) Create a program that use the Roman form for encrypt messages, how is that? Simple. If you have SKYLAB, the encrypted form is  SLKAYB...
 If you divided the word in two groups of 3 letters, you get:
 - SKY
 - |-|-|
