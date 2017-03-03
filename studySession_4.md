@@ -46,11 +46,11 @@ b) **Simple Scripting program**. Create a program that transform a 4 number valu
 var code = 3712;
 function codeScript(code){}
 //output:
-:point_down: //First call to codeScript()
+ ⬇︎//First call to codeScript()
 - 7123
-:point_down: //Second call to codeScript()
+ ⬇︎//Second call to codeScript()
 - 1237
-:point_down: //Third call to codeScript()
+ ⬇︎//Third call to codeScript()
 - 2371
 // At Four call, should return the original value
 ```
@@ -75,7 +75,7 @@ c) **Super-Challenge!!**
 Create a program that use the Roman form for encrypt messages, how is that? Simple. If you have SKYLAB, the encrypted form is  SLKAYB...
 If you divided the word in two groups of 3 letters, you get:
 - SKY
-|-|-|
+- |-|-|
 - LAB 
 Then, join the S with L, K with A and Y with B, and you get SLKAYB.
 
@@ -83,7 +83,7 @@ So, make a program that, receive the message SKYLAB and returns the SLKAYB.
 
 c2) Now, you can do the DECRYPTER? Pass the ENCRYPTED message (SLKAYB) and returns SKYLAB.
 
-**Hint:**: for decrypt, only catch the pair words like: **S** L **K** A **Y** B
+**Hint:** for decrypt, only catch the pair words like: **S** L **K** A **Y** B
  , then, you get SKY, the next step is catch the odd words, S **L** K **A** Y **B**, group the two groups and you get the original word.
 
 c3) Group the **Encrypt** and **decrypt** functions in one unique function, pass the word SKYLAB and returns SKYLAB (with all the transformation inside...)
