@@ -59,7 +59,7 @@ console.log(mySelection) // my lastname is STARK
 
 g) Now, add one message in other string var and join to other name string, show it for console
 ```javascript
-something = myNameVar + "is awesome"
+var something = myNameVar + "is awesome"
 console.log(something) \\ "Tony is awesome"
 
 ```
@@ -69,16 +69,68 @@ h) Now, you can select the first letters of your lastnames and show they?
 console.log(myFirstLastnameLetters) // S.Y
 ```
 
-i) Convert your name to array, saparated elements by "/"
+### Arrays
+a) Declare your complete name, and print ONLY your name saparated each letter by "/"
 ```javascript
 console.log(myName) // T/O/N/Y
 ```
 
-j) Catch your lastname and show every letter separated by "|"
+b) Now catch your lastname and show every letter separated by "|"
 ```javascript
 console.log(myLastName) // S|T|A|R|K
 ```
 
+c) Declare your name again as a string and and show the letters with the position
+```javascript
+console.log(myName) // 1º T, 2º O, 3º N, 4º Y
+```
+Resource: https://www.w3schools.com/jsref/jsref_split.asp
+
+d)Now, with all your name, like last exercise, show me the lastname with the position too
+```javascript
+console.log(myLastName) // 5º S, 6º T, 7º A, 8º R, 9º K
+```
+Resource: https://www.w3schools.com/jsref/jsref_length_array.asp
+
+e) You can show me your initial letters? Like the **exercise h** in strings seccion, but with arrays 
+```javascript
+console.log(myInitials) // T.S
+```
+
+f)Now, introduce to array your age and print only your name and your age.
+```javascript
+console.log(mySelector) // My name is TONY and i'm 40 years old
+```
+
+g) Now prepare a function for introduct a city in your array, display a message with all content of array.
+```javascript
+console.log(myCityAdd) // City added to array! => Tony, Stark, 40, New York
+```
+
+h) Prepare other function for delete the city and asure the changes
+```javascript
+myCityAdd() // City added to array! => Tony, Stark, 40, New York
+myCityDelete() // City deleted! => Tony, Stark, 40
+```
+
+j)Now, delete the name (first element) and asure the changes
+Resources: https://www.w3schools.com/jsref/jsref_shift.asp
+
+k) I want to introduce again my name but if I do push the name goes to last position... how I can introduce it in first position again?!
+Resources: https://www.w3schools.com/jsref/jsref_splice.asp
+
+l) Finally, declare a array from 0 to 10 and show me every element * 2
+```javascript
+var numbers = [0,1,2,3,4,5,6,7,8,9]
+function num (num1){
+    return num1 * 2
+}
+var mult1 = numbers.map(num)
+```
+Resource: https://www.w3schools.com/jsref/jsref_map.asp
+
+m) Now, show me the new array in descending order.
+Resources: https://www.w3schools.com/jsref/jsref_sort.asp
 
 ### Numbers
 a) What time is it? Converts it to string and show it for console
@@ -131,5 +183,5 @@ f) With other conditional, returns other operation
 console.log(10) // I return the same value...
 ```
 
-### Arrays
+
 
