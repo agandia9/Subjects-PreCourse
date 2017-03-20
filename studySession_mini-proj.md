@@ -113,8 +113,24 @@ var bingoCard = [
 
 ---
 
-4) Pasapalabra Game! (Final JS)
+4) Pasapalabra Game! (Final JS) 🎮⁉️
+Do the Pasapalabra Game, the program should have questions that user must respond with the correct word. For example:
+```
+'>>>'With the letter "A", if is not a person... is?
+'>>>' "Animal"
+'>>>'Correct, you have 1 Point!
+```
 
+Then, your game should have one question for each letter in alphabet, at the end of game, the program should say how much letters you respond ok and how much fails. The user should know too what letters exactly they respond ok and fail.
+If user say "pasapalabra", the program should leave this question for second round and ask again when game ends with letter Z. The game only ends when ALL questions are respond.
+Do a users ranking too, ordered by points.
+**PRO**
+- The users should have time for respond all questions, for example 130 seconds... 
+resource: https://www.w3schools.com/jsref/met_win_settimeout.asp
+- The program shouldn't say incorrect if user introduce the answer in uppercase or lowercase 
+**"animal" == "ANIMAL" // "Animal" // "aNiMal"...**
+- The program should be prepared for accept "END" input as the user wants ends the game, and the game returns how much letters you leave without respond (This user should not enter in ranking)
+- Prepare your game for not repeat all the same questions every time. For example, do 3 questions for every letter...
 
 
 

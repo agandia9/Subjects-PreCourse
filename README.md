@@ -8,6 +8,9 @@ A parte de estar en contacto por Slack de forma continua, en las sesiones de est
 
 (Tiempo estimado: 50 horas).
 
+### Resources to see:
+<a href="resources.md">Resources</a>
+
 ### Index:
 
 1. <a href="studySession_methods.md">Study Session - Methods</a><br />
@@ -35,5 +38,3 @@ A parte de estar en contacto por Slack de forma continua, en las sesiones de est
 6. <a href="studySession_final.md">Study Session - Final Project</a> (6, 7 & 8 sessions)
     Proyecto final como colofón antes de entrar en el curso. Al mini-project de la semana 4, le daremos una buena capa de presentación con lo aprendido de HTML y CSS, creando una interfaz de usuario para poder jugar. <br /> 
     <a href="studySession_mini-proj.md">**Project: Pasapalabra JS + HTML + CSS**</a>
-
-
