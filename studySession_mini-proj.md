@@ -114,7 +114,9 @@ var bingoCard = [
 ---
 
 4) Pasapalabra Game! (Final JS) 🎮⁉️
+
 Do the Pasapalabra Game, the program should have questions that user must respond with the correct word. For example:
+
 ```
 '>>>'With the letter "A", if is not a person... is?
 '>>>' "Animal"
@@ -131,6 +133,7 @@ resource: https://www.w3schools.com/jsref/met_win_settimeout.asp
 **"animal" == "ANIMAL" // "Animal" // "aNiMal"...**
 - The program should be prepared for accept "END" input as the user wants ends the game, and the game returns how much letters you leave without respond (This user should not enter in ranking)
 - Prepare your game for not repeat all the same questions every time. For example, do 3 questions for every letter...
+
 
 
 
