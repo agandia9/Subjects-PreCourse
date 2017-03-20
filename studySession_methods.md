@@ -121,10 +121,7 @@ Resources: https://www.w3schools.com/jsref/jsref_splice.asp
 
 l) Finally, declare a array from 0 to 10 and show me every element * 2
 ```javascript
-var numbers = [0,1,2,3,4,5,6,7,8,9]
-function num (num1){
-    return num1 * 2
-}
+function num (num1){...}
 var mult1 = numbers.map(num)
 ```
 Resource: https://www.w3schools.com/jsref/jsref_map.asp
