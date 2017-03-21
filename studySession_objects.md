@@ -24,8 +24,6 @@ https://www.w3.org/wiki/Objects_in_JavaScript //Try to do the exercise of calcul
 
 ---
 
-### 3...2...1...GO!
-
 a) Do a simple function for show the names of the properties. 
 ```javascript
 console.log(something, somethingMore, somethingMoreAndMore)

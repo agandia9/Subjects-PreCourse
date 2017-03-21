@@ -7,7 +7,7 @@ http://www.w3schools.com/tags/ <- List of all tags of HTML lenguage
 ![snapshot](img/html.png)
 *Basic estructure for HTML main page*
 
-####Exercise: 
+#### Exercise: 
 Do the semantic markup for the following image(**no styles**, only semantic HTML).
 
 ![snapshot](img/shot1.png)
