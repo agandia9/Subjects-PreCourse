@@ -6,7 +6,12 @@ Bienvenidos a las sesiones de estudio de SkylabCoders, aquí encontraréis todos
 
 A parte de estar en contacto por Slack de forma continua, en las sesiones de estudio de los miércoles se trabajarán los distintos ejercicios y responderemos las dudas que surjan. Además os presentaremos su correspondiente mini-project (prácticas que os sugeriremos para afianzar los conocimientos).
 
-(Tiempo estimado: 60 horas).
+Así, los objetivos de las sesiones de estudio son:
+- Prepararos para poder empezar el curso con **un buen nivel de Javascript**
+- Entender la visión global de **comunicacion entre capas** (JS/HTML/CSS)
+- Fomentar la **auto-resolución** de problemas y el trabajo en **equipo**
+
+(Tiempo estimado: 70 horas).
 
 ### Resources to see:
 <a href="resources.md">Resources</a>

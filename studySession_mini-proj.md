@@ -2,7 +2,8 @@
 
 ## Challenges Study Sessions
  
-1) Calculator! 
+**In reference to 1º Study Session**
+Calculator! ➗➕
 
 Make a calculator, a single function program to which you will pass two numbers, and will display by console its sum, subtraction, multiplication and division. The results should be shown only with 3 decimals at most (if exist...) and contemplate that if, the user enters anything other thing than numbers, it should show an error
 
@@ -20,7 +21,8 @@ Good luck!
 
 ---
 
-2) Skylab Airlines! ✈️🛩
+**In reference to 2º Study Session**
+Skylab Airlines! ✈️🛩
 
 Make the **interface of an airline**, this airline has 10 flights available for today (In object format), to begin with, flights are declared globally, when the function is called...:
 - A message will be displayed *welcoming the user*,
@@ -67,7 +69,8 @@ console.log(flights[0].to) //output: New York
 
 ---
 
-3) BINGO GAME! 🎲🎰
+**In reference to 3º Study Session**
+BINGO GAME! 🎲🎰
 
 Make a Bingo game.
 
@@ -113,7 +116,8 @@ var bingoCard = [
 
 ---
 
-4) Pasapalabra Game! (Final JS) 🎮⁉️
+**In reference to 4º Study Session**
+Pasapalabra Game! (Final JS) 🎮⁉️
 
 Resource: https://www.youtube.com/watch?v=xJp2c_rcHDc
 Do the Pasapalabra Game, the program should have questions that user must respond with the correct word. For example:
