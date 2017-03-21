@@ -34,7 +34,7 @@ Así, los objetivos de las sesiones de estudio son:
     <img src="https://d3dr1ze7164817.cloudfront.net/items/0d2U2V0d2v3y0S0Z0r3I/Screen%20Recording%202017-03-20%20at%2012.01%20p.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=873490d0" alt=""><br />
     <a href="studySession_mini-proj.md">**Project: Bingo**</a>
 
-4. <a href="studySession_challenjesJS.md">Study Session - Challenges</a><br />
+4. <a href="studySession_challengesJS.md">Study Session - Challenges</a><br />
     Juntaremos todos los conocimientos de las sesiones anteriores, en estos challenges os pondremos a prueba. <br /> 
     <img src="https://d3dr1ze7164817.cloudfront.net/items/2y1H0l3O0e2C290W2Z18/Screen%20Recording%202017-03-21%20at%2009.47%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=5353f902" alt=""><br />
     <a href="studySession_mini-proj.md">**Project: Pasapalabra** </a>
