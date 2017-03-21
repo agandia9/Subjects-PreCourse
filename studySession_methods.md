@@ -31,6 +31,7 @@ Write your name and count how much letters have
 ```javascript
 console.log(myName) // My Name has 4 letters 
 ```
+**Check this:** http://bfy.tw/AlDi
 
 b) In what position is you'r first lastname??
 ```javascript
