@@ -115,6 +115,7 @@ var bingoCard = [
 
 4) Pasapalabra Game! (Final JS) 🎮⁉️
 
+Resource: https://www.youtube.com/watch?v=xJp2c_rcHDc
 Do the Pasapalabra Game, the program should have questions that user must respond with the correct word. For example:
 
 ```

@@ -6,7 +6,7 @@ Bienvenidos a las sesiones de estudio de SkylabCoders, aquí encontraréis todos
 
 A parte de estar en contacto por Slack de forma continua, en las sesiones de estudio de los miércoles se trabajarán los distintos ejercicios y responderemos las dudas que surjan. Además os presentaremos su correspondiente mini-project (prácticas que os sugeriremos para afianzar los conocimientos).
 
-(Tiempo estimado: 50 horas).
+(Tiempo estimado: 60 horas).
 
 ### Resources to see:
 <a href="resources.md">Resources</a>
@@ -30,11 +30,14 @@ A parte de estar en contacto por Slack de forma continua, en las sesiones de est
 
 4. <a href="studySession_challenjesJS.md">Study Session - Challenges</a><br />
     Juntaremos todos los conocimientos de las sesiones anteriores, en estos challenges os pondremos a prueba. <br /> 
+    <img src="https://d3dr1ze7164817.cloudfront.net/items/2y1H0l3O0e2C290W2Z18/Screen%20Recording%202017-03-21%20at%2009.47%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=5353f902" alt="">
     <a href="studySession_mini-proj.md">**Project: Pasapalabra** </a>
-
+    
 5. <a href="studySession_HTML-CSS.md">Study Session - HTML & CSS </a><br /> 
     Aprenderemos los fundamentos de HTML y CSS. Del primero trabajaremos su estructura básica, sus tags principales: como juntarlos y mostrar información según un estilo. En cuanto al CSS, aprenderemos los principales selectores, propiedades de los principales tags, etc.
+    <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 
 6. <a href="studySession_final.md">Study Session - Final Project</a> (6, 7 & 8 sessions)
     Proyecto final como colofón antes de entrar en el curso. Al mini-project de la semana 4, le daremos una buena capa de presentación con lo aprendido de HTML y CSS, creando una interfaz de usuario para poder jugar. <br /> 
+    <img src="https://d3dr1ze7164817.cloudfront.net/items/1U3g3V3m3x41292u2v08/Screen%20Recording%202017-03-21%20at%2009.59%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=2ab536e0" alt="">
     <a href="studySession_mini-proj.md">**Project: Pasapalabra JS + HTML + CSS**</a>
