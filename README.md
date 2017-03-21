@@ -15,7 +15,7 @@ Así, los objetivos de las sesiones de estudio son:
 (Tiempo estimado: 70 horas).
 
 ### Resources to see:
-<a href="resources.md">Resources</a>
+<a href="resources.md">More Info & Good Practices</a>
 
 ### Index:
 
