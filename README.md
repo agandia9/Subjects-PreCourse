@@ -10,6 +10,7 @@ Así, los objetivos de las sesiones de estudio son:
 - Prepararos para poder empezar el curso con **un buen nivel de Javascript**
 - Entender la visión global de **comunicacion entre capas** (JS/HTML/CSS)
 - Fomentar la **auto-resolución** de problemas y el trabajo en **equipo**
+- Inculcar **buenas prácticas** en cuanto a código y organización del trabajo.
 
 (Tiempo estimado: 70 horas).
 
