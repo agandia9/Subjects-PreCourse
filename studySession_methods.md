@@ -26,14 +26,14 @@ console.log(text)
 
 
 ### Strings
-a) Hello again! I don't remember you'r name, you can tell me again please?
-Write your name and count how much letters have
+a) Hello again! I don't remember your name, you can tell me again please?
+Write your name and count how much letters have.
 ```javascript
 console.log(myName) // My Name has 4 letters 
 ```
-**Check this:** http://bfy.tw/AlDi
+**Check this:** http://bfy.tw/AlDi 👈🏼
 
-b) In what position is you'r first lastname??
+b) In what position is you'r first lastname?
 ```javascript
 console.log(myString)// Your first last name is on position 5
 ```
