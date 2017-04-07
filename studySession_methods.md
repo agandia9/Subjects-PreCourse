@@ -20,114 +20,119 @@ if (someday > today) {
 console.log(text)
 
 ```
-:angry: This exercises only can be do with **METHODS**
+👆🏼 This exercises only can be do with **METHODS**
 
 ---
 
 
 ### Strings
-a) Hello again! I don't remember your name, you can tell me again please?
-Write your name and count how much letters have.
+a) Puedes contar cuantas letras tiene tu nombre? 
 ```javascript
 console.log(myName) // My Name has 4 letters 
 ```
 **Check this:** http://bfy.tw/AlDi 👈🏼
 
-b) In what position is you'r first lastname?
+b) Añade tu apellido e indica en que posición se encuentra
 ```javascript
-console.log(myString)// Your first last name is on position 5
+console.log(myString)// Your first last name starts on position 5
 ```
  
-c) Now, show for console **ONLY** your nane 
+c) Ahora, con tu apellido y nombre en la misma variable, muestra solo el nombre.
 ```javascript
 console.log(myString) // My Name is Tony 
 ```
  
-d) Now, your second lastname 
+d) Ahora, solo tu apellido.
 ```javascript
 console.log(myString) // My lastname is Stark
 ```
- 
-e) Now, replace your *name* for "Mr/Ms" and show the lastname as same 
+
+d1) Iguala el resultado a una variable nueva e imprímela por pantalla.
+```javascript
+console.log(myFirstString +", " + myNewString) // Tony Stark, Stark
+```
+
+e) Ahora, reemplaza tu nombre por "Mr/Ms" y vuelve a mostrar la variable con los cambios. 
 ```javascript
 console.log(myNewString) // Hello, Mr. Stark 
 ```
  
-f) Now, select your first lastname and converts to Upper Case
+f) Selecciona tu apellido y transfórmalo a MAYÚSCULAS.
 ```javascript
 console.log(mySelection) // my lastname is STARK
 ```
 
-g) Now, add one message in other string var and join to other name string, show it for console
+g) Ahora declara una variable nueva e igualala a la anterior variable sumándole, además, un mensaje.
 ```javascript
-var something = myNameVar + "is awesome"
+var something = myFirstString + "is awesome"
 console.log(something) \\ "Tony is awesome"
 
 ```
 
-h) Now, you can select the first letters of your lastnames and show they?
+h) Ahora, puedes seleccionar la inicial de tu nombre y apellido y mostrarlas por pantalla?
 ```javascript
 console.log(myFirstLastnameLetters) // S.Y
 ```
 
 ### Arrays
-a) Declare your complete name, and print ONLY your name saparated each letter by "/"
+a) Declara tu nombre completo en una array y muéstralo por pantalla separando cada letra por "/"
 ```javascript
-console.log(myName) // T/O/N/Y
+console.log(myName) // T/O/N/Y/S/T/A/R/K
 ```
 
-b) Now catch your lastname and show every letter separated by "|"
+b) Ahora solo selecciona tu apellido y muestra cada letra separada por "|"
 ```javascript
-console.log(myLastName) // S|T|A|R|K
+console.log(myName) // S|T|A|R|K
 ```
 
-c) Declare your name again as a string and and show the letters with the position
+c) Ahora muestra cada letra de tu **nombre** con su posición (necesitarás un bucle **for**)
 ```javascript
 console.log(myName) // 1º T, 2º O, 3º N, 4º Y
 ```
 Resource: https://www.w3schools.com/jsref/jsref_split.asp
 
-d)Now, with all your name, like last exercise, show me the lastname with the position too
+d)Como en el ejercicio anterior, pero seleccionando tu apellido
 ```javascript
 console.log(myLastName) // 5º S, 6º T, 7º A, 8º R, 9º K
 ```
 Resource: https://www.w3schools.com/jsref/jsref_length_array.asp
 
-e) You can show me your initial letters? Like the **exercise h** in strings seccion, but with arrays 
+e) Puedes indicarme las iniciales de tu nombre y apellido? Como en el **ejercicio h** de la sección de strings
 ```javascript
 console.log(myInitials) // T.S
 ```
 
-f)Now, introduce to array your age and print only your name and your age.
+f) Ahora, reformula la array, introduciendo tu nombre en primera posición, tu apellido en segunda, y además añade en otra posicion tu edad.
+Muestra por pantalla solo tu nombre y tu edad en un solo mensaje.
 ```javascript
 console.log(mySelector) // My name is TONY and i'm 40 years old
 ```
 
-g) Now prepare a function for introduct a city in your array, display a message with all content of array.
+g) Prepara una función para añadir tu City a la array, muestra un mensaje mostrando el contenido de toda la array, así aseguraremos los cambios.
 ```javascript
 console.log(myCityAdd) // City added to array! => Tony, Stark, 40, New York
 ```
 
-h) Prepare other function for delete the city and asure the changes
+h) Crea ahora, una funcion para eliminar la variable City y asegura los cambios.
 ```javascript
 myCityAdd() // City added to array! => Tony, Stark, 40, New York
 myCityDelete() // City deleted! => Tony, Stark, 40
 ```
 
-j)Now, delete the name (first element) and asure the changes
+j) Ahora, elimina el nombre y asegura los cambios
 Resources: https://www.w3schools.com/jsref/jsref_shift.asp
 
-k) I want to introduce again my name but if I do push the name goes to last position... how I can introduce it in first position again?!
+k) Quiero volver a introducir mi nombre pero si lo introduzco utilizando push() estará en la última posición, como podria hacer para introducirlo en la primera posición?
 Resources: https://www.w3schools.com/jsref/jsref_splice.asp
 
-l) Finally, declare a array from 0 to 10 and show me every element * 2
+l) Ahora, declara una array con los números del 0 a 10 y muéstralos de dos en dos.
 ```javascript
 function num (num1){...}
 var mult1 = numbers.map(num)
 ```
 Resource: https://www.w3schools.com/jsref/jsref_map.asp
 
-m) Now, show me the new array in descending order.
+m) Podrías mostrarlos en el orden inverso?
 Resources: https://www.w3schools.com/jsref/jsref_sort.asp
 
 ### Numbers

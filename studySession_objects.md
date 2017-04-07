@@ -110,7 +110,7 @@ console.log(otherAvenger) // Hulk...
 ```
 
 k) Crea una propiedad del objeto que liste automáticamente los valores de la instancia.
-Example of property:
+. Example of property:
 ```javascript
 this.listProperties: function(){
     console.log(this.name + ", " + this.class) 

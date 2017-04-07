@@ -9,7 +9,7 @@ http://www.w3schools.com/tags/ <- List of all tags of HTML lenguage
 *Basic estructure for HTML main page*
 
 #### Exercise: 
-Do the semantic markup for the following image(**no styles**, only semantic HTML).
+Realiza el marcado semántico de las siguientes imágenes(**no styles(css)**, solo marcado HTML!).
 
 ![snapshot](img/shot1.png)
 
