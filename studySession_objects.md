@@ -119,7 +119,7 @@ this.listProperties: function(){
 
 <details> 
   <summary>Spoiler! 😅</summary>
-  <div>
+  <p>
 ```javascript
 function avenger(fullName, classRoom, city, job, studies,markAv) {
     this.fullName = fullName;
@@ -136,7 +136,7 @@ var tonyStark = new avenger ("Tony Stark", "XI", "NYC", "Ingeneer", "MIT", 10)
 tonyStark.description()
 //Tony Stark, NYC...
 ```
-</div>
+</p>
 </details>
 
 l) Ahora, crea una función que solo liste los nombres de los objetos instanciados
