@@ -119,24 +119,24 @@ this.listProperties: function(){
 
 <details> 
   <summary>Spoiler! 😅</summary>
-  <div>
-<code>
-function avenger(fullName, classRoom, city, job, studies,markAv) {
-    this.fullName = fullName;
-    this.classRoom = classRoom;
-    this.city = city;
-    this.job = job;
-    this.studies = studies;
-    this.markAv = markAv;
-    this.description = function(){
-        console.log(this.fullName + ", " + this.city + "...")
+    <pre>
+    <code>
+    function avenger(fullName, classRoom, city, job, studies,markAv) {
+        this.fullName = fullName;
+        this.classRoom = classRoom;
+        this.city = city;
+        this.job = job;
+        this.studies = studies;
+        this.markAv = markAv;
+        this.description = function(){
+            console.log(this.fullName + ", " + this.city + "...")
+        }
     }
-}
-var tonyStark = new avenger ("Tony Stark", "XI", "NYC", "Ingeneer", "MIT", 10)
-tonyStark.description()
-//Tony Stark, NYC...
-</code>
-</div>
+    var tonyStark = new avenger ("Tony Stark", "XI", "NYC", "Ingeneer", "MIT", 10)
+    tonyStark.description()
+    //Tony Stark, NYC...
+    </code>
+    </pre>
 </details>
 <br>
 
