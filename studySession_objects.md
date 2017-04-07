@@ -6,10 +6,10 @@ http://www.w3schools.com/js/js_objects.asp
 *Simple JS Object for example.*
 
 ```javascript
-var student = { 
-    name : "David Aughan", 
-    class : "VI", 
-    id : 12 
+var avenger = { 
+    name : "Tony", 
+    class : "VII", 
+    id : 1 
 };
 console.log(student.name) // "David Aughan"
 ```
@@ -24,62 +24,64 @@ https://www.w3.org/wiki/Objects_in_JavaScript //Try to do the exercise of calcul
 
 ---
 
-a) Do a simple function for show the names of the properties. 
+a) Escribe una función que liste los nombres de propiedad del objeto 
+(Puedes usar el objeto creado más arriba)
 ```javascript
 console.log(something, somethingMore, somethingMoreAndMore)
 //name, class, id
 ```
 
-b) Now, do a simple function for show the **content** of those properties.
+b) Ahora, crea una función que liste solo los valores de las propiedades.
 ```javascript
 console.log(somethingThatShowsThings) //Tony, VII, 01
 ```
 
-c) So, we can change a property value? Change the class to "XI".
+c) Cambia el valor de la propiedad class por "XI" y asegurate de que los cambios se han efectuado.
 ```javascript
-console.log(property.ThisProperty) //new value
+console.log(property.ThisProperty) //new class = XI
 ```
 
-d) Now, delete the id property.
+d) Ahora, elimina la propiedad ID y asegura los cambios.
 ```javascript
 console.log(property.ThisProperty) //Not exist :(
 ```
 
-e) Add a new property called **city** and give some value
+e) Añade una nueva propiedad, por ejemplo **city** y dale un valor.
 
 http://www.w3schools.com/js/js_properties.asp
 
-e1) Asure the changes showing the property in console.
+e1) Asegura los cambios solo imprimiendo esa nueva propiedad.
 ```javascript
-console.log(city) // New York City
+console.log(city) // City => New York City
 ```
 
-f) List the number of properties we have now on objects.
+f) Lista el numero de propiedades que contiene el objeto.
 ```javascript
 console.log() // There are 4 info fields
 ```
 
-g) Change the property **name** to **fullName**
+g) Cambia la propiedad **name** por **fullName**.
 
-g1) Asure the changes.
+g1) Asegura los cambios.
 ```javascript
 console.log(fullName) // Tony Stark
 ```
 
-h) For last, add a presentation message like: "Hello, my name is " + ..., and show all values of the object.
+h) Lista todas las propiedades del objeto a través de un console.log()
 ```javascript
 console.log(...) // "Hi there, I'm Tony Stark..."
 ```
 
-h1) Add some properties more...like job, Studies and Marks average
+h1) Añade más propiedades al objeto, como... markAverage, country, job, studies...
 
-h2) Asure the changes and show for console.
+h2) Asegura los cambios volviendo a listar los valores del objeto
 
 ```javascript
 console.log(location) // NYC
 ```
 
-i) Make a **constructor** object called avenger and pass the info, creating a instance of the object with the properties of our created object
+i) Crea un **constructor** de objetos llamado "Avenger", al cual le pasarás ciertos parametros, creando una instancia del objeto con las propiedades de nuestro objeto creado.
+(Échale un ojo a la referencia de abajo.) 
 
 http://www.w3schools.com/js/js_object_definition.asp
 
@@ -98,26 +100,55 @@ var tonyStark = new avenger ("Tony Stark", "XI", "NYC", "Ingeneer", "MIT", 10)
 console.log(tonyStark)
 ```
 
-j) Create other avenger and print the name for console
+j) Crea otro objeto y imprime sus propiedades por pantalla.
 ```javascript
 var otherAvenger = new Avenger...
 console.log(otherAvenger) // Hulk...
 ```
 
-k) Now create one property of object that print a pretty description of avengers.
+k) Crea una propiedad del objeto que liste automáticamente los valores de la instancia.
+Example of property:
 ```javascript
-console.log(otherAvenger.somethingThatShows) // Hulk, 30...
+this.listProperties: function(){
+    console.log(this.name + ", " + this.class) 
+};
 ```
 
-l) Now, make a function that only shows the NAMES of created avengers.
+<details> 
+  <summary>Spoiler! 😅</summary>
+  <div>
+```javascript
+function avenger(fullName, classRoom, city, job, studies,markAv) {
+    this.fullName = fullName;
+    this.classRoom = classRoom;
+    this.city = city;
+    this.job = job;
+    this.studies = studies;
+    this.markAv = markAv;
+    this.description = function(){
+        console.log(this.fullName + ", " + this.city + "...")
+    }
+}
+var tonyStark = new avenger ("Tony Stark", "XI", "NYC", "Ingeneer", "MIT", 10)
+tonyStark.description()
+//Tony Stark, NYC...
+```
+</div>
+</details>
+
+l) Ahora, crea una función que solo liste los nombres de los objetos instanciados
 ```javascript
 console.log(someFunction) // Tony Stark, Hulk, Thor...
 ```
 
-m) Make other student and prepare for ONLY show the names, the age and location.
+m) Crea varios objetos con las mismas propiedades, como por ejemplo la ciudad, crea una función para que **solo liste los nombres** de los Avengers **que sean de la misma ciudad** y cuantos hay.
 ```javascript
-console.log(propertyValues) // my name, my age and my location!
+console.log(myFunction) // Are 3 avengers living in NYC: Tony, Hulk, Hawkeye
 ```
 
-n) For last, create yourself and create a function for catch all averages field of Avengers and shows the average of all of them.
+n) Para acabar, créate a ti mismo y crea una función que recoja todas las markAv y muestre la media de todas las notas.
 
+ñ) Ahora, crea una funcion que recoja los avengers en parejas (será necesario que tengan un id...), es decir, de dos en dos, compare sus markAv y que solo muestre el mayor.
+```javascript
+console.log(myFunction()) // HawkEye vs Tony => Tony is better! \n Thor vs Hulk => Hulk is better! \n Vision vs Captain America => Vision is better
+```
