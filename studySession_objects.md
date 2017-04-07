@@ -119,7 +119,6 @@ this.listProperties: function(){
 
 <details> 
   <summary>Spoiler! 😅</summary>
-  <div>
 ```javascript
 function avenger(fullName, classRoom, city, job, studies,markAv) {
     this.fullName = fullName;
@@ -136,7 +135,6 @@ var tonyStark = new avenger ("Tony Stark", "XI", "NYC", "Ingeneer", "MIT", 10)
 tonyStark.description()
 //Tony Stark, NYC...
 ```
-</div>
 </details>
 <br>
 
