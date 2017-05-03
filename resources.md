@@ -29,7 +29,7 @@ Index:
 
 - It's good practice save all your exercise solutions, with a less comment about what your code do. The comments in Javascript are written with "//" before the comment, this make a non executable line, is only for information about your code, for you and for other who can see it.
 
-```
+```javascript
 //Example: 
 //This is my exercise, this code pass two numbers as a parameter in function and returns the sum.
 
@@ -39,6 +39,11 @@ function sum(a,b){
 ```
 
 ---
+## More Exercises before start w/study sessions
+- Conditionals(if-else, switch-case) 
+
+- Loops(while, do-while, for, for-in
+
 
 ## Good practices guide:
 

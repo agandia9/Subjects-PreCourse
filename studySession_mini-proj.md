@@ -17,6 +17,22 @@ Como objetivos extra:
 *Hint_* => results = [num1 + num2 = resultSum, num1-num2 = resultRest ....]
 
 **PRO.**
+
+- Podrías hacer que le calculadora relizara operaciones sean cuales sean el numero de argumentos pasados a la funcion?
+*Hint* => https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/arguments
+*Hint* => https://msdn.microsoft.com/es-es/library/he95z461
+```javascript
+function sum(){
+    var acc = 0;
+    for (num in arguments){
+    console.log(num)
+    acc += arguments[num]   
+    } 
+    return acc
+}
+sum(2,3,4) // acc=9
+```
+
 - Después de hacer todas las operaciones, el programa deberá preguntar al usuario si desea volver a realizar otra operación, volviendo a almacenar más resultados y mostrándolos.
 ```javascript
 calculator(n1,n2)

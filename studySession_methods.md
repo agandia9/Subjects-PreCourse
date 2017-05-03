@@ -20,7 +20,7 @@ if (someday > today) {
 console.log(text)
 
 ```
-👆🏼 This exercises only can be do with **METHODS**
+👆🏼 Estos ejercicios se deberán hacer exclusivamente usando **METODOS**
 
 ---
 
@@ -74,6 +74,8 @@ h) Ahora, puedes seleccionar la inicial de tu nombre y apellido y mostrarlas por
 console.log(myFirstLastnameLetters) // S.Y
 ```
 
+---
+
 ### Arrays
 a) Declara tu nombre completo en una array y muéstralo por pantalla separando cada letra por "/"
 ```javascript
@@ -125,66 +127,76 @@ Resources: https://www.w3schools.com/jsref/jsref_shift.asp
 k) Quiero volver a introducir mi nombre pero si lo introduzco utilizando push() estará en la última posición, como podria hacer para introducirlo en la primera posición?
 Resources: https://www.w3schools.com/jsref/jsref_splice.asp
 
-l) Ahora, declara una array con los números del 0 a 10 y muéstralos de dos en dos.
+l) Ahora, declara una array con los números del 0 a 10 y muestra cada número multiplicado por dos.
 ```javascript
-function num (num1){...}
-var mult1 = numbers.map(num)
+numbers = [...]
+var multByTwo = numbers.map(...)
 ```
+
+l1) Reformula la función para que puedas especificar por cual número debería multiplicar cada elemento de la array.
+
+```javascript
+var num = 3; // cada número se multiplicará por 3
+function multByNum(num){
+    var arrayMult = numbers.map(...)
+    return arrayMult
+}
+```
+
 Resource: https://www.w3schools.com/jsref/jsref_map.asp
 
 m) Podrías mostrarlos en el orden inverso?
 Resources: https://www.w3schools.com/jsref/jsref_sort.asp
 
-### Numbers
-a) What time is it? Converts it to string and show it for console
-```javascript
-console.log(myString + myNumberStringify) // I'ts 10.34 of morning
-```
+---
 
-b) What time is it exactly? Show it without the minutes.
+### Numbers
+a) Que hora es? Declara la hora como número y devuelvela como String 
+```javascript
+console.log(myString + myNumberStringify) // I'ts 10.45 of morning
+```
+*Hint* => https://www.w3schools.com/jsref/jsref_tostring_number.asp
+
+b) Nono, que hora exactamente? Dime la hora sin minutos 
 ```javascript
 console.log(myString) // It's around 10 of morning
 ```
 
-c) Now, try to convert your hour var with minutes to entire number without minutes and show it
+c) Ahora, declara tu hora y muéstrala redondeada.
 ```javascript
-console.log(parse...(10.34)) // 10!
+console.log(...(10.34)) // 11!
 ```
+*Hint* => https://www.w3schools.com/jsref/jsref_round.asp
 
-d) We can do a calculator, so let's do it! first, do a sum with two numbers
+d) Hagamos una calculadora. Primero, la suma.  
+We can do a calculator, so let's do it! first, do a sum with two numbers
 ```javascript
 console.log(sum) //The sum of 7+3 is 10
 ```
 
-d1) Add the rest...
+d1) Añade la resta...
 ```javascript
 console.log(sum + rest) // The sum and rest of 7 and 3 is 10 and 4 
 ```
 
-d2) And the multicity
+d2) Y la multiplicación
 ```javascript
 console.log(sum + rest + mult) // 10, 4 and 21
 ```
 
-d3) Finally, the division
+d3) Por ultimo, la división
 ```javascript
 console.log(sum + rest + mult + div) // 10, 4, 21 and 2.3
 ```
 
-d4) Now, try to execute a multiplicity like 10 * "hour", what value is returned?
+d4) Ahora, intenta multiplicar un número por una string, que devuelve?
 ```javascript
 console.log(10*"hour") // ....?!
 ```
 
-e) Don't worry, we can catch this error, you can controle it with **if conditional**?
+e) Podemos controlar este error con un condicional **if**?
 ```javascript
 console.log(10*"hour") // You can't do this operation!
 ```
-
-f) With other conditional, returns other operation
-```javascript
-console.log(10) // I return the same value...
-```
-
 
 

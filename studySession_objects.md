@@ -154,5 +154,7 @@ n) Para acabar, créate a ti mismo y crea una función que recoja todas las mark
 
 ñ) Ahora, crea una funcion que recoja los avengers en parejas (será necesario que tengan un id...), es decir, de dos en dos, compare sus markAv y que solo muestre el mayor.
 ```javascript
-console.log(myFunction()) // HawkEye vs Tony => Tony is better! \n Thor vs Hulk => Hulk is better! \n Vision vs Captain America => Vision is better
+console.log(myFunction()) 
+// HawkEye vs Tony => Tony is better! \n Thor vs Hulk => Hulk is better! \n Vision vs Captain America => Vision is better
 ```
+ñ1) Intenta crear las parejas de forma aleatoria.
