@@ -9,8 +9,6 @@ Calculator! ➗➕
 Haz una calculadora. Un único programa al que le pasarás dos parámetros y el usuario podrá visualizar por consola la suma, resta, multiplicación y división entre ambos números. El resultado debería ser mostrado con 3 decimales como mucho (En caso de que hubieran).
 El programa debe contemplar y actuar correctamente en el caso de que el usuario introduzca cualquier cosa que no sean números.
 
-Como objetivos extra:
-
 - Si el usuario introduce un solo numero, deberá mostrar **SOLO** su raíz cuadrada, si vuelve a introducir los dos, volverá a mostrar las 4 operaciones de siempre.
 - Los resultados deberían almacenarse dentro de una array y mostrarlos de una forma amigable al usuario.
 
@@ -49,7 +47,8 @@ prompt("New numbers? y/n")
 
 Skylab Airlines! ✈️🛩
 
-*(Los datos están al final del enunciado, podéis usarlos en vuestro código)*
+*(Los datos de los vuelos están al final del enunciado, podéis usarlos en vuestro código)*
+
 Programa una inferfaz de usuario para una aerolinea. Esta aerolinea dispondrá de 10 vuelos para el dia de hoy, para empezar, estos vuelos estarán declarados de manera global, cuando se llame a la función:
 - Se preguntará por el nombre de usuario y dará la bienvenida.
 - El usuario visualizará todos los vuelos disponibles de una forma amigable:
@@ -137,20 +136,21 @@ var bingoCard = [
 
 ---
 
-**In reference to 4º Study Session**
+**Mini-Proyecto de la <a href="challenjesJS.md"> cuarta sesión de estudio </a>**
 
 Pasapalabra Game! (Final JS) 🎮⁉️
 
 Resource: https://www.youtube.com/watch?v=xJp2c_rcHDc
-Haz el juego del Pasapalabra, el programa deberá lanzar preguntas relacionadas con una palabra y el usuario deberá responder con esa misma palabra, por ejemplo:
+
+Haz el juego del Pasapalabra, el programa deberá lanzar la definición de una palabra y el usuario deberá adivinar que palabra estamos tratando, por ejemplo:
 
 ```
-'>>>'With the letter "A", if is not a person... is?
-'>>>' "Animal"
+'>>>'With the letter "M", Capital of Spain, located in the center of the country.
+'>>>' "Madrid"
 '>>>'Correct, you have 1 Point!
 ```
 
-Entonces, tu juego debería hacer una pregunta por letra del alfabeto, al final del juego, y habiendo respondido **todas las letras**, deberá indicarle al usuario cuantas letras ha fallado y cuantas ha acertado.
+Entonces, tu juego debería hacer una pregunta por cada letra del alfabeto, al final del juego, y habiendo respondido **todas las letras**, deberá indicarle al usuario cuantas letras ha fallado y cuantas ha acertado.
 Si el usuario responde con "pasapalabra" el juego deberá estar preparado para entender que en ese momento, el usuario no responderá esa pregunta, y no estará acertada ni fallada, la dejará para la siguiente ronda.
 El juego deberá, cuando finalize, mostrar un ranking de usuarios con el nombre y ordenados por cantidad de letras acertadas.
 
