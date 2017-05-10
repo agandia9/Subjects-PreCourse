@@ -14,7 +14,7 @@ var avenger = {
     class : "VII", 
     id : 1 
 };
-console.log(student.name) // "David Aughan"
+console.log(avenger.name) // "Tony"
 ```
 
 *Working with objects*
