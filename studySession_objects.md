@@ -18,7 +18,7 @@ console.log(avenger.name) // "Tony"
 ```
 
 *Working with objects*
-#### Reference:🤓
+#### Reference:
 https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Working_with_Objects
 
 http://javascript.info/tutorial/objects
@@ -112,9 +112,13 @@ console.log(otherAvenger) // Hulk...
 k) Crea una propiedad del objeto que liste automáticamente los valores de la instancia.
 . Example of property:
 ```javascript
+...
+...
+...
 this.listProperties: function(){
     console.log(this.name + ", " + this.class) 
 };
+}
 ```
 
 <details> 
@@ -150,11 +154,19 @@ m) Crea varios objetos con las mismas propiedades, como por ejemplo la ciudad, c
 console.log(myFunction) // Are 3 avengers living in NYC: Tony, Hulk, Hawkeye
 ```
 
-n) Para acabar, créate a ti mismo y crea una función que recoja todas las markAv y muestre la media de todas las notas.
+_Hint_: Intenta tener a todos los objetos dentro de una array, al tener todos los datos juntos, podrás filtrarlos y mostrarlos...
 
-ñ) Ahora, crea una funcion que recoja los avengers en parejas (será necesario que tengan un id...), es decir, de dos en dos, compare sus markAv y que solo muestre el mayor.
+_Resources_
+=> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter?v=control
+=> https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Array/forEach
+
+n) Para acabar, créate a ti mismo y crea una función que recoja todas las markAv y muestre la media.
+
+ñ) Ahora, crea una funcion que recoja los avengers en parejas (será necesario que tengan un id, por comodidad al aparejarlos), es decir, de dos en dos, compare sus markAv y que muestre el mayor de ambos.
 ```javascript
 console.log(myFunction()) 
 // HawkEye vs Tony => Tony is better! \n Thor vs Hulk => Hulk is better! \n Vision vs Captain America => Vision is better
 ```
 ñ1) Intenta crear las parejas de forma aleatoria.
+
+_Hint_=> https://developer.mozilla.org/es/docs/Web/JavaScript/Referencia/Objetos_globales/Math/random
