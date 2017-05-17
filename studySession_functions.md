@@ -25,43 +25,55 @@ var y = function myFunction(a, b) {
 ```
 
 
-a) First we do a function that salute us, try to pass your name as param of function and print out for console.
+a) Primero, creamos una función que nos cree un saludo, pasa tu nombre como parámetro y devuélvelo por la consola.
 ```javascript
-console.log('hello + myName')//output: 'hello myName'
+function (myName){
+    console.log('hello + myName')//output: 'hello myName'
+}
 ```
 
-b) Try to RETURN this same values instead of console.log()
+b) Intenta *retornar* los valores en lugar de usar *console.log*
 ```javascript
-return 'hello + myName' // output: 'hello myName'
+function (myName){
+    return 'hello + myName' // output: 'hello myName'
+}
 ```
 
-c) Now, add your age and **return** it with your name too.
-
+c) Ahora, añade tu edad y concaténala al return
 ```javascript
 return 'myMessage' //output: 'hello myName, you're myAge years old.'
 ```
 
-d) Equal your function to one var and execute it.
+Cual es la diferencia entre *console.log()* & *return*?
+Read this => http://stackoverflow.com/questions/21020608/difference-between-console-log-and-return-in-javascript
+
+d) Iguala tu función a una variable y ejecútala
 ```javascript
 var MyFunction = ... //output: 'hello myName, you're myAge years old.'
-
+myFunction()
 ```
+=> *Podemos guardar resultados de funciones en una variable, es decir, sus* **returns**
 
-e) Now, try to declare other function and assign it result to other variable called myAge, and try to print the result of both functions in one line.
+e) Ahora declara otra funcion que devuelva tu edad y asigna su resultado a otra variable, intenta imprimir sus dos resultados concatenados 
+Now, try to declare other function and assign it result to other variable called myAge, and try to print the result of both functions in one line.
 ```javascript
 myName() + myAge() //output: IronMan 40
 ```
 
-f) Now try to declare the vars and pass as a parameter.
+e1) Intenta sumarle al resultado de tu segunda funcion, un numero random del 0-10 y conviertelo todo a un solo string.
+```javascript
+myName() + (myAge() + myRandomNumber).toString()//output: IronMan 45
+```
+
+f) Ahora, todas las variables deberían ser pasadas como parámetro a las funciones.
 ```javascript
 var...
 var...
-myName(param1) + myAge(param2) //output: IronMan 40
+myName(param1) + myAge(param2) //output: IronMan 43
 
 ```
 
-g) Try to englobe in one function both vars and execute it, the output should be the same.
-
+g) Intenta englobar todas las funciones en una sola funcion padre, el return de dicha función padre deberá ser la llamada a las funciones hijas
 ```javascript
 function ... (){
     var x = myName(param1)
@@ -71,62 +83,74 @@ function ... (){
 ```
 
 
-h) Try to generate random numbers in other function and pass as parameter to function that return the age.
+h) Haz otra función hija que solo devuelva un número random, ese número random será el argumento que se pasará como parámetro a la función age()
 ```javascript
 return x + y // output: IronMan 6457689
 ```
 
 http://www.w3schools.com/jsref/jsref_random.asp
 
-i) Now, limit the random from 0 to 50. Say one message if the output age is < 20 and other if > 21
+i) Ahora, limita el random de 0 a 50, Muestra un mensaje si el output age es < 20 y otro si es de 21 - 50
 ```javascript
 return x + y // output: IronMan 3...Sure you're Tony Stark?
 ```
 
-j) Now, the function that receive the name, modify it and concatenate one string to the random num and return both
+j) Al return de la función name(), concaténale otro mensaje
 ```javascript
 return x + y // output: Tony Stark...aka IRONMAN, 34...Sure you're Tony Stark? 
 ```
 
-
-k) Now, change the return of the father function for console.log and show both child functions returns in pretty string
+k) Ahora, modifica el return de la función padre para que devuelva sus datos en un mensaje amigable
 ```javascript
 return x + y // output: The first function returns: 'Tony Stark...aka IRONMAN', The second function returns: '34...Sure you're Tony Stark?' 
 ```
 
-l) Try to catch the error if the Name passed to our child function... if is not IronMan, show message.
+l) Modifica la primera función y la función padre para, si el parámetro introducido no es tu nombre, no siga con la segunda llamada
 ```javascript
-return x + y // output: The first function returns: 'Tony Stark...aka IRONMAN', The second function returns: '34...Sure you're Tony Stark?' 
+return x + y // output: "The first function returns: Hulk... You're not IRONMAN!"
 ```
 
-
-m) Let's make this a little bit more complicated... The random numbers should be generate in other diferent function.. return to our father function and passed as a parameter to our second function
+m) Vamos a complicarlo un poco... El número random debería generarse en otra función separada del padre. Retorna a la funcion padre y concaténalo en el return padre.
 ```javascript
 function GenerateRandom(){
     ...
     return randomNumber.
 }
+
 function father(){
-    GenerateRandom();
-    return x()...
+    var numR = GenerateRandom()
+    return ...numR()...
 }
 ```
 
-n) Then, for get all our program separated in functions, try to slice all functions, in the principal function you must only have the calls to this functions.
+n) Refactorizemos nuestro código dejando todas las funciones separadas del padre, éste último se encargará de llamarlas todas y mostrar sus resultados.
 ```javascript
 function father(){
     myFunction();
     myOtherFunction();
-    myOtherFarFunction();
+    myOtherVarFunction();
+    return...
 }
 
 ```
 
-ñ) Now, try to push the results of callfunctions in array and return one string like always
+ñ) Intenta hacer push de todos los resultados de las funciones a una array declarada en el padre, muestra los resultados de esta array como siempre.
 
-o) Create other function that call to our father function, this separated function uses the array of results and push other string like: I'M CALLED FROM THE OTHER SIDE!!
+o) Crea una funcion que llame a nuestra funcion father(), ésta, a parte de llamarla, deberá hacer otro push "hello from the dark side..." a la array que crea father(). Muestra toda la array completa.
 
-p) Now, try to call this function to times, what random Num of those two calls is bigger? 
+p) 🔞 👊🏼 Llama a ésta nueva función dos veces, muestra sus resultados por pantalla y compara sus randomNums, mostrando un mensaje indicando cual es mayor. El nombre pasado por parámetro también deberá ser random entre una array de nombres, con lo cual, también deberás refactorizar las funciones hijas.
+```javascript
+function gandFather(){
+    var names = ['hulk', 'ironMan', '...']
+    var selectedName...
+    var selectedName2...
+    if(father(selectedName) > father(selectedName2))
+        ...
+    else
+        ...
+    return father(selectedName).push().join()...
+}
+```
 
 
 
