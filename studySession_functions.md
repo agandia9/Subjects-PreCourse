@@ -24,6 +24,7 @@ var y = function myFunction(a, b) {
 
 ```
 
+**Exercises:**
 
 a) Primero, creamos una función que nos cree un saludo, pasa tu nombre como parámetro y devuélvelo por la consola.
 ```javascript
@@ -45,7 +46,7 @@ return 'myMessage' //output: 'hello myName, you're myAge years old.'
 ```
 
 Cual es la diferencia entre *console.log()* & *return*?
-Read this => http://stackoverflow.com/questions/21020608/difference-between-console-log-and-return-in-javascript
+- Read this => http://stackoverflow.com/questions/21020608/difference-between-console-log-and-return-in-javascript
 
 d) Iguala tu función a una variable y ejecútala
 ```javascript
@@ -151,6 +152,10 @@ function gandFather(){
     return father(selectedName).push().join()...
 }
 ```
+
+p1) En lugar de retornar los valores como una array, prepara tus funciones para que devuelvan los resultados como **OBJECTS**. Muestra por pantalla los objetos sin estilizar el output.
+
+p2) Muestra los resultados de los **OBJECTS** recorriendolos y mostrando los valores de una forma amigable.
 
 
 
