@@ -150,7 +150,7 @@ Haz el juego del Pasapalabra, el programa deberá lanzar la definición de una p
 '>>>'Correct, you have 1 Point!
 ```
 
-Entonces, tu juego debería hacer una pregunta por cada letra del alfabeto, al final del juego, y habiendo respondido **todas las letras**, deberá indicarle al usuario cuantas letras ha fallado y cuantas ha acertado.
+Tu juego debería hacer una pregunta por cada letra del alfabeto, al final del juego, y habiendo respondido **todas las letras**, deberá indicarle al usuario cuantas letras ha fallado y cuantas ha acertado.
 Si el usuario responde con "pasapalabra" el juego deberá estar preparado para entender que en ese momento, el usuario no responderá esa pregunta, y no estará acertada ni fallada, la dejará para la siguiente ronda.
 El juego deberá, cuando finalize, mostrar un ranking de usuarios con el nombre y ordenados por cantidad de letras acertadas.
 
