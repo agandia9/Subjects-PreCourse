@@ -146,9 +146,9 @@ var dictionary = {
     6: ['G', 'P', 'Z'],
     7: ['H', 'Q', '.'],
     8: ['I', 'R', ','],
-    9: ['J', 'S', '-']
+    9: ['J', 'S', ' ']
 }
-function codeScript("Hola que tal?", "SOS"){}
+function codeScript("HELLO", "WE  ", "NEED", "HELP"){}
 ```
 
 ---
@@ -201,4 +201,6 @@ sayItWithWords(500) => //output five hundred , five hundred  / 500
 sayItWithWords(233) => //output two hundred thirty three, two hundred + thirty + three/ 200 + 30 + 3
 sayItWithWords(498) => //output four hundred ninety eight, four hundred + ninety + eight/ 400 + 90 + 8
 ```
+---
 
+f) 
