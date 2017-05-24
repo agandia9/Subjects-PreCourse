@@ -133,7 +133,7 @@ c5) Añade las dos funciones a la misma función padre, de forma que encripte y 
 function codeScript(code1, code2){... codeDecrypt(code1Encrypt,code2Encrypt)}
 ```
 
-c6) El usuario podrá solo introducir letras, cada número del 0 al 9 corresponderá a varias letras(El decrypter también aceptará LETRAS). Podéis seguir este esquema.
+c6) El usuario podrá solo introducir letras, cada número del 0 al 9 corresponderá a varias letras. Podéis seguir este esquema.
 
 ```javascript
 var dictionary = {
@@ -148,7 +148,8 @@ var dictionary = {
     8: ['I', 'R', ','],
     9: ['J', 'S', ' ']
 }
-function codeScript("HELLO", "WE  ", "NEED", "HELP"){}
+function codeScript("HI  ", "WE  ", "NEED", "HELP"){}
+"HI..." = "dictionary[7][0]+dictionary[8][0]+dictionary[9][2]+dictionary[9][2]..."
 ```
 
 ---
@@ -202,5 +203,3 @@ sayItWithWords(233) => //output two hundred thirty three, two hundred + thirty +
 sayItWithWords(498) => //output four hundred ninety eight, four hundred + ninety + eight/ 400 + 90 + 8
 ```
 ---
-
-f) 
