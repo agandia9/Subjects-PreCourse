@@ -37,7 +37,7 @@ function showNums(1,2,3,4,5){
 
 a2) Pasa también el numero a multiplicar a la función como argumento
 ```javascript
-function showNums(1,2,3,4,5,...,12){ //<= el último número de arguments lo podemos tratar como el multiplicador...
+function showNums(1,2,3,4,5,...,12){ //<= el último número de arguments lo podemos tratar como el numero multiplicador...
 } 
 // output => 
 // El numero escogido es: 12
@@ -103,7 +103,7 @@ function fiboPymamid(num){}
 
 ---
 
-c) **Simple Scripting program**. Create a program that transform a 4 number values code to diferents positions, making a new code.
+c) **Simple Scripting program**. Crea un programa que transforme un número de 4 dígitos en otro diferente con las posiciones de los dígitos cambiadas, creandio un nuevo código
 ```javascript
 var code = 3712;
 function codeScript(code){}
@@ -116,38 +116,89 @@ function codeScript(code){}
 - 2371
 // At Four call, should return the original value
 ```
-**The first number, go to the last position. Second, third and four goes up.**
+**El primer numero se traslada a la última posicion. El segundo, el tercero y el cuarto suben una posición.**
 
-c2) Now, the user can introduce two different codes and should return the codes changed.
+c2) Ahora, el usuario debería poder introducir como parámetro dos códigos a la vez y devolver los dos códigos encriptados (Los dos códigos se deberían encriptar en la misma función)
 ```javascript
 function codeScript(code1, code2){}
 ```
 
-c3) Now, we try to add a additional level of security. After change the position of numbers, we can multiplicy the values by 2.
-*(we have a problem if the mult of numbers is > 10, choose numbers < 4 for make the code)*.
-For asure the implementation of extra security level, do the properly console.logs().
+c3) Ahora, vamos a añadir un nivel más de seguridad. Despues de cambiar la posición de los dígitos, multiplicaremos a cada miembro por un numero cuya multiplicación no sea superior a 10. 
+(Si es superior a 10, conseguiremos una multplicación de dos digitos y el código ya no sería de 4 valores)
 
-c4) Now, do the DECRYPT function, call it before ends the codeScript function for asure the functionallity.
+c4) Ahora, implementa en otra funcion aparte el decrypter(), que recibirá como argumento un código encriptado (y correspondientemente multiplicado en el apartado c3) y nos devuelva el código desencriptado.
+
+c5) Añade las dos funciones a la misma función padre, de forma que encripte y desencripte a la vez cuando termine de ejecutarse.
 ```javascript
-function codeScript(code1, code2){... codeDecrypt(code1,code2)}
+function codeScript(code1, code2){... codeDecrypt(code1Encrypt,code2Encrypt)}
+```
+
+c6) El usuario podrá solo introducir letras, cada número del 0 al 9 corresponderá a varias letras(El decrypter también aceptará LETRAS). Podéis seguir este esquema.
+
+```javascript
+var dictionary = {
+    0: ['A', 'K', 'T'],
+    1: ['B', 'L', 'U'],
+    2: ['C', 'M', 'V'],
+    3: ['D', 'N', 'W'],
+    4: ['E', 'Ñ', 'X'],
+    5: ['F', 'O', 'Y'],
+    6: ['G', 'P', 'Z'],
+    7: ['H', 'Q', '.'],
+    8: ['I', 'R', ','],
+    9: ['J', 'S', '-']
+}
+function codeScript("Hola que tal?", "SOS"){}
 ```
 
 ---
 
-d) Create a program that use the Roman form for encrypt messages, how is that? Simple. If you have SKYLAB, the encrypted form is  SLKAYB...
-If you divided the word in two groups of 3 letters, you get:
+d) Crea un programa que use la encriptacion Romana, como es?
+Si tenemos la palabra SKYLAB, la palabra encriptada será SLKAYB.
+Si divides la palabra original en 2 grupos obtienes:
 - SKY
 - |-|-|
 - LAB 
-Then, join the S with L, K with A and Y with B, and you get SLKAYB.
+Entonces, uniendo las primeras letras de cada grupo, las segundas y las terceras obtienes SLKAYB.
 
-So, make a program that, receive the message SKYLAB and returns the SLKAYB.
+Entonces, el programa deberá recibir SKYLAB y retornar SLKAYB
 
-d2) Now, you can do the DECRYPTER? Pass the ENCRYPTED message (SLKAYB) and returns SKYLAB.
+d2) Programa el desencriptador, pasa como parámetro SLKAYB y que devuelva SKYLAB.
 
 **Hint:** for decrypt, only catch the pair words like: **S** L **K** A **Y** B
  , then, you get SKY, the next step is catch the odd words, S **L** K **A** Y **B**, group the two groups and you get the original word.
 
-d3) Group the **Encrypt** and **decrypt** functions in one unique function, pass the word SKYLAB and returns SKYLAB (with all the transformation inside...)
+d3) Agrupa la función **Encrypt** y **decrypt** en una unica función, de forma que introduzcas como parámetro SKYLAB y devuelva SKYLAB (con todas las transformaciones internas hechas y mostrando, entre medias, la transformación)
 
-d4) **You got it?** Then try now with SKYLABCODERS. Change the function for can accept more large words.
+d4) Lo tienes? Prueba ahora con SKYLABCODERS. Cambia la función para que pueda aceptar palabras más largas.
+
+---
+
+e) Crea un programa al que le introduces un número como parámetro del 0 al 100 y devuelve el número transformado a alfabeto normal, es decir:
+```javascript
+sayItWithWords(5) => //output Five
+sayItWithWords(23) => //output twenty-three
+sayItWithWords(71) => //output seventy-one
+```
+
+_Hint_: 
+```javascript
+var units = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+var tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
+var teens = ['ten', 'eleven', 'twelve', 'thirteen', 'fourteen', 'fifteen', 'sixteen', 'seventeen', 'eighteen', 'nineteen'];
+```
+
+e2) Ahora, el output debería ser capaz de, aparte de devolver el número traducido, devolver también los números por los que está formado:
+```javascript
+sayItWithWords(5) => //output Five, five / 5
+sayItWithWords(23) => //output twenty-three, twenty + three / 20 + 3
+sayItWithWords(71) => //output seventy-one, seventy + one / 70 + 1
+```
+
+e3) Cambia tu programa para que acepte cualquier número entre 0 y 1000.
+```javascript
+sayItWithWords(500) => //output five hundred , five hundred  / 500
+sayItWithWords(233) => //output two hundred thirty three, two hundred + thirty + three/ 200 + 30 + 3
+sayItWithWords(498) => //output four hundred ninety eight, four hundred + ninety + eight/ 400 + 90 + 8
+```
+
