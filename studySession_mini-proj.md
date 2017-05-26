@@ -162,7 +162,7 @@ El juego deberá, cuando finalize, mostrar un ranking de usuarios con el nombre 
 - El programa debe estar preparado para aceptar el input "END" para terminar el juego en cualquier momento, si esto sucede, el programa dirá cuantas letras ha acertado pero no entrará en el ranking.
 - Prepara tu programa para que no repita siempre las mismas preguntas, por ejemplo, de la misma letra, se podrían hacer tres preguntas diferentes.
 
-_Ejemplo de preguntas y respuestas:_
+_Ejemplo de preguntas y respuestas:_ **made by** => _www.github.com/misan7_
 ```javascript
 var questions = [
     { letter: "a", answer: "abducir", status: 0, question: ("CON LA A. Dicho de una supuesta criatura extraterrestre: Apoderarse de alguien") },
