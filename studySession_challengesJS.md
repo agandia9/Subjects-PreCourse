@@ -149,7 +149,7 @@ var dictionary = {
     9: ['J', 'S', ' ']
 }
 function codeScript("HI  ", "WE  ", "NEED", "HELP"){}
-"HI..." = "dictionary[7][0]+dictionary[8][0]+dictionary[9][2]+dictionary[9][2]..."
+"HI__" = "dictionary[7][0]+dictionary[8][0]+dictionary[9][2]+dictionary[9][2]..."
 ```
 
 ---
