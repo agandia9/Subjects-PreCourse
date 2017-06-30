@@ -1,5 +1,5 @@
 
-Index: 
+## Index: 
 1. More Info
 2. Good Practices
 
@@ -33,14 +33,14 @@ function sum(a,b){
 
 ---
 ## More Exercises before start w/study sessions
-- Conditionals(if-else, switch-case) 
-. https://www.javascript.com/learn/javascript/conditionals
-. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
-. https://www.codecademy.com/courses/conditionals-in-javascript/0/1
+- Conditionals(**if-else**, **switch-case**)
+    - https://www.javascript.com/learn/javascript/conditionals
+    - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
+    -  https://www.codecademy.com/courses/conditionals-in-javascript/0/1
 
-- Loops(while, do-while, for
-https://www.tutorialspoint.com/javascript/javascript_for_loop.htm
-http://www.tutorialspoint.com/javascript/javascript_while_loop.htm
+- Loops(while, do-while, for)
+    - https://www.tutorialspoint.com/javascript/javascript_for_loop.htm
+    - http://www.tutorialspoint.com/javascript/javascript_while_loop.htm
 
 ## Good practices guide:
 
