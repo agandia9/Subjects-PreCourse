@@ -3,8 +3,6 @@
 1. More Info
 2. Good Practices
 
----
-
 ## More Info:
 
 #### Information and resources before start...
@@ -38,7 +36,7 @@ function sum(a,b){
     - https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Conditional_Operator
     -  https://www.codecademy.com/courses/conditionals-in-javascript/0/1
 
-- Loops(while, do-while, for)
+- Loops(**while**, **do-while**, **for**)
     - https://www.tutorialspoint.com/javascript/javascript_for_loop.htm
     - http://www.tutorialspoint.com/javascript/javascript_while_loop.htm
 
