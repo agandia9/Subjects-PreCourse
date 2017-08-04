@@ -1,8 +1,8 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
-## Challenges Study Sessions
- 
-**Mini-Proyecto de la <a href="studySession_methods.md"> primera sesión de estudio </a>**
+## Challenges Pre-course
+
+**Mini-Proyecto de la <a href="methods.md"> primera sesión de estudio </a>**
 
 Calculator! ➗➕
 
@@ -25,7 +25,7 @@ function sum(){
     for (num in arguments){
     console.log(num)
     acc += arguments[num]   
-    } 
+    }
     return acc
 }
 sum(2,3,4) // acc=9
@@ -43,7 +43,7 @@ prompt("New numbers? y/n")
 
 ---
 
-**Mini-Proyecto de la <a href="studySession_objects.md"> segunda sesión de estudio </a>**
+**Mini-Proyecto de la <a href="objects.md"> segunda sesión de estudio </a>**
 
 Skylab Airlines! ✈️🛩
 
@@ -59,7 +59,7 @@ Programa una inferfaz de usuario para una aerolinea (por terminal...). Esta aero
 
 **PRO!:**
 
-Después de ver toda la información el programa pedirá al usuario si es ADMIN/USER, dependiendo de la elección, el programa se comportará de la siguiente manera: 
+Después de ver toda la información el programa pedirá al usuario si es ADMIN/USER, dependiendo de la elección, el programa se comportará de la siguiente manera:
 
 Si eres *ADMIN*, la función debería permitir:
 - Poder crear, más vuelos, pidiendo la información por prompt(), sin poder pasar de 15 vuelos, si se intenta introducir uno más, saltará un alert().
@@ -95,7 +95,7 @@ console.log(flights[0].to) //output: New York
 
 ---
 
-**Mini-Proyecto de la <a href="studySession_functions.md"> tercera sesión de estudio </a>**
+**Mini-Proyecto de la <a href="functions.md"> tercera sesión de estudio </a>**
 
 
 BINGO GAME! 🎲🎰
@@ -136,7 +136,7 @@ var bingoCard = [
 
 ---
 
-**Mini-Proyecto de la <a href="challenjesJS.md"> cuarta sesión de estudio </a>**
+**Mini-Proyecto de la <a href="challengesJS.md"> cuarta sesión de estudio </a>**
 
 Pasapalabra Game! (Final JS) 🎮⁉️
 
@@ -157,7 +157,7 @@ El juego deberá, cuando finalize, mostrar un ranking de usuarios con el nombre 
 **PRO**
 - Los usuarios deberán tener tiempo límite por cada juego, por ejemplo 130 segundos...
 *Resource*: https://www.w3schools.com/jsref/met_win_settimeout.asp
-- El programa no debería hacer distinciones entre mayúsculas, minúsculas... 
+- El programa no debería hacer distinciones entre mayúsculas, minúsculas...
 *Ejemplo*: **"animal" == "ANIMAL" // "Animal" // "aNiMal"...**
 - El programa debe estar preparado para aceptar el input "END" para terminar el juego en cualquier momento, si esto sucede, el programa dirá cuantas letras ha acertado pero no entrará en el ranking.
 - Prepara tu programa para que no repita siempre las mismas preguntas, por ejemplo, de la misma letra, se podrían hacer tres preguntas diferentes.
@@ -194,5 +194,3 @@ var questions = [
     { letter: "z", answer: "zen", status: 0, question: ("CON LA Z. Escuela de budismo que busca la experiencia de la sabiduría más allá del discurso racional") },
 ]
 ```
-
-
