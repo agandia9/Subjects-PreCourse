@@ -2,7 +2,7 @@
 
 ## Challenges Pre-course
 
-**Mini-Proyecto de la <a href="methods.md"> primera sesión de estudio </a>**
+**Mini-Proyecto del <a href="methods.md"> tema 1</a>**
 
 Calculator! ➗➕
 
@@ -43,7 +43,7 @@ prompt("New numbers? y/n")
 
 ---
 
-**Mini-Proyecto de la <a href="objects.md"> segunda sesión de estudio </a>**
+**Mini-Proyecto del <a href="objects.md"> tema 2 </a>**
 
 Skylab Airlines! ✈️🛩
 
@@ -95,7 +95,7 @@ console.log(flights[0].to) //output: New York
 
 ---
 
-**Mini-Proyecto de la <a href="functions.md"> tercera sesión de estudio </a>**
+**Mini-Proyecto del <a href="functions.md"> tema 3 </a>**
 
 
 BINGO GAME! 🎲🎰
@@ -136,7 +136,7 @@ var bingoCard = [
 
 ---
 
-**Mini-Proyecto de la <a href="challengesJS.md"> cuarta sesión de estudio </a>**
+**Mini-Proyecto del <a href="challengesJS.md"> tema 4 </a>**
 
 Pasapalabra Game! (Final JS) 🎮⁉️
 
