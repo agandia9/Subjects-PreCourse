@@ -1,8 +1,8 @@
+### **Nota para los alumnos de la siguiente promocion de SkylabCoders:**
+### **ESTAMOS REMODELANDO EL PRE-CURSO ⚠️**
+### **LOS CONTENIDOS DEL MISMO IRÁN VARIANDO EN LAS PROXIMAS SEMANAS 👀**
+
 # README Pre-course
-
-
-### **UNDER CONSTRUCTION ⚠️**
-
 
 ## Desc:
 
