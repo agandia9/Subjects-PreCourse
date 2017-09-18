@@ -9,4 +9,29 @@ http://www.w3schools.com/tags/ <- List of all tags of HTML lenguage
 *Basic estructure for HTML main page*
 
 #### Exercise:
-b) Añade el CSS a los marcados anteriores de forma que, solo añadiendo los estilos, se vea tal y como en las imágenes.
+b) Añade el CSS a los marcados de la sesión anterior de forma que, solo añadiendo los estilos, se vea tal y como en las imágenes.
+
+## Advanced Markup
+![snapshot](img/shot1.png)
+
+---
+
+![snapshot](img/1_2.png)
+
+---
+
+![snapshot](img/1_3.jpg)
+
+---
+
+![snapshot](img/1_4.png)
+
+---
+
+![snapshot](img/shot4.png)
+
+---
+
+![snapshot](img/shot3.jpg)
+
+---
