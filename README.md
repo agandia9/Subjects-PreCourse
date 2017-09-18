@@ -21,10 +21,6 @@ Así, los objetivos del pre-curso son:
 
 (Tiempo estimado: 70 horas).
 
-## Resources to see:
-
-[More Info & Good Practices](resources.md)
-
 ## Index:
 
 1. [Tema 1 - Methods](methods.md)<br>

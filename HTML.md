@@ -34,27 +34,3 @@ a) Realiza el marcado semántico de las siguientes imágenes(**no styles(css)**,
 ---
 ![snapshot](img/css5.jpg)
 
-## Advanced Markup
-![snapshot](img/shot1.png)
-
----
-
-![snapshot](img/1_2.png)
-
----
-
-![snapshot](img/1_3.jpg)
-
----
-
-![snapshot](img/1_4.png)
-
----
-
-![snapshot](img/shot4.png)
-
----
-
-![snapshot](img/shot3.jpg)
-
----
