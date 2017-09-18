@@ -10,7 +10,7 @@ function showNums(){
         ...
     }
 }
-// output => 
+// output =>
 //1ª pareja 2 - 4
 //2ª pareja 4 - 6
 //3ª pareja 6 - 8
@@ -18,42 +18,42 @@ function showNums(){
 //5ª pareja 10 - 12
 //6ª pareja 12 - 14
 //7ª pareja 14 - 16
-//8ª pareja 16 - 18 
+//8ª pareja 16 - 18
 ```
 *Hint:* Métodos útiles => push() - join() - map()
 
-a1) La funcion debería aceptar la array a tratar como argumento. 
+a1) La funcion debería aceptar la array a tratar como argumento.
 ```javascript
 function showNums(1,2,3,4,5){
     var nums = arguments...
     nums.map(...)
 }
-// output => 
+// output =>
 // 1ª pareja 2 - 4
 // 2ª pareja 4 - 6
 // 3ª pareja 6 - 8
-//... 
+//...
 ```
 
 a2) Pasa también el numero a multiplicar a la función como argumento
 ```javascript
 function showNums(1,2,3,4,5,...,12){ //<= el último número de arguments lo podemos tratar como el numero multiplicador...
-} 
-// output => 
+}
+// output =>
 // El numero escogido es: 12
 // 1ª pareja 12 - 24
 // 2ª pareja 24 - 36
 // 3ª pareja 36 - 48
 // 4ª pareja 48 - 60
-// 5ª pareja 60 - 72 
+// 5ª pareja 60 - 72
 // ...
 ```
 
 a3) La función debería ser capaz de recibir el numero de parejas que queremos devolver del total.
 ```javascript
 function showNums(1,2,3,4,5,...,12, 3){ // <= ahora, el último numero lo podriamos tomar como el delimitador
-} 
-// output => 
+}
+// output =>
 // El numero escogido es: 12
 // Se quieren mostrar las 3 primeras parejas
 // 1ª pareja 12 - 24
@@ -86,18 +86,18 @@ function fibo(10){}
 b5) Ahora, muestra los resultados en forma piramidal:
 ```javascript
 function fiboPymamid(num){}
-0 
-0 1 
+0
+0 1
 0 1 1
 0 1 1 2
 0 1 1 2 3
 0 1 1 2 3 5
 0 1 1 2 3 5 8 //To position. num
-0 1 1 2 3 5 
+0 1 1 2 3 5
 0 1 1 2 3
 0 1 1 2
 0 1 1
-0 1 
+0 1
 0
 ```
 
@@ -123,7 +123,7 @@ c2) Ahora, el usuario debería poder introducir como parámetro dos códigos a l
 function codeScript(code1, code2){}
 ```
 
-c3) Ahora, vamos a añadir un nivel más de seguridad. Despues de cambiar la posición de los dígitos, multiplicaremos a cada miembro por un numero cuya multiplicación no sea superior a 10. 
+c3) Ahora, vamos a añadir un nivel más de seguridad. Despues de cambiar la posición de los dígitos, multiplicaremos a cada miembro por un numero cuya multiplicación no sea superior a 10.
 (Si es superior a 10, conseguiremos una multplicación de dos digitos y el código ya no sería de 4 valores)
 
 c4) Ahora, implementa en otra funcion aparte el decrypter(), que recibirá como argumento un código encriptado (y correspondientemente multiplicado en el apartado c3) y nos devuelva el código desencriptado.
@@ -159,7 +159,7 @@ Si tenemos la palabra SKYLAB, la palabra encriptada será SLKAYB.
 Si divides la palabra original en 2 grupos obtienes:
 - SKY
 - |-|-|
-- LAB 
+- LAB
 Entonces, uniendo las primeras letras de cada grupo, las segundas y las terceras obtienes SLKAYB.
 
 Entonces, el programa deberá recibir SKYLAB y retornar SLKAYB
@@ -182,7 +182,7 @@ sayItWithWords(23) => //output twenty-three
 sayItWithWords(71) => //output seventy-one
 ```
 
-_Hint_: 
+_Hint_:
 ```javascript
 var units = ['', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
 var tens = ['', '', 'twenty', 'thirty', 'forty', 'fifty', 'sixty', 'seventy', 'eighty', 'ninety']
@@ -202,5 +202,24 @@ sayItWithWords(500) => //output five hundred , five hundred  / 500
 sayItWithWords(233) => //output two hundred thirty three, two hundred + thirty + three/ 200 + 30 + 3
 sayItWithWords(498) => //output four hundred ninety eight, four hundred + ninety + eight/ 400 + 90 + 8
 ```
+f) Recibiendo el siguiente texto por parámetro a tu función... :
+
+```javascript
+Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur. Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur.
+```
+
+Prepara dicha función para que modifique y devuelva el texto bajo estas reglas:
+Signos de puntuación:
+	-	"." => ","
+	- "," => ""
+Palabras:
+	- "dolor" => "potato"
+	- "lorem" => "tomato"
+	- "labor" => "cucumber"
+	- "consequatur" => "garlic"
+	- "ipsum" => "onion"
+
+f1) Añade una funcionalidad que cuente cuantos cambios/coincidencias ha encontrado de cada palabra, y te los muestre de una forma amigable para el usuario
 
 ---

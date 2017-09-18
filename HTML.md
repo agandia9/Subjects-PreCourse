@@ -1,15 +1,17 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
-## HTML & CSS MARKUP
+## HTML MARKUP
 
 http://www.w3schools.com/tags/ <- List of all tags of HTML lenguage
 
-**FIRST** => https://www.codecademy.com/learn/web
 **Resources** => https://www.w3schools.com/html/default.asp
 ![snapshot](img/html.png)
 *Basic estructure for HTML main page*
 
-#### Exercise: 
+#### Exercise:
+
+**FIRST** => https://www.codecademy.com/learn/web
+
 a) Realiza el marcado semántico de las siguientes imágenes(**no styles(css)**, solo marcado HTML!).
 
 ## P
@@ -39,7 +41,7 @@ a) Realiza el marcado semántico de las siguientes imágenes(**no styles(css)**,
 
 ![snapshot](img/1_2.png)
 
---- 
+---
 
 ![snapshot](img/1_3.jpg)
 
@@ -56,5 +58,3 @@ a) Realiza el marcado semántico de las siguientes imágenes(**no styles(css)**,
 ![snapshot](img/shot3.jpg)
 
 ---
-
-b) Añade el CSS a los marcados anteriores de forma que, solo añadiendo los estilos, se vea tal y como en las imágenes.
