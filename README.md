@@ -53,7 +53,7 @@ Así, los objetivos del pre-curso son:
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 	 <a href="mini-proj.md">**Project: CSS Styling!**</a>
 
-7. [Tema 7 - JS-NATIVE/HTML/CSS](js-native.md)<br>
+7. [Tema 7 - JS-NATIVE/HTML/CSS](html-css-js.md)<br>
 	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 	 <a href="mini-proj.md">**Project: Calculator++!**</a>
@@ -61,4 +61,4 @@ Así, los objetivos del pre-curso son:
 8. [Final Project](final.md)
 	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/1U3g3V3m3x41292u2v08/Screen%20Recording%202017-03-21%20at%2009.59%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=2ab536e0" alt=""><br />
-	 <a href="mini-proj.md">**Project: Pasapalabra JS + HTML + CSS**</a>
+	 <a href="mini-proj-final.md">**Project: Pasapalabra JS + HTML + CSS**</a>

@@ -148,6 +148,17 @@ Resource: https://www.w3schools.com/jsref/jsref_map.asp
 m) Podrías mostrarlos en el orden inverso?
 Resources: https://www.w3schools.com/jsref/jsref_sort.asp
 
+n) Puedes indicarme que letras se repiten de tu nombre y cuantas veces?
+```javascript
+console.log(repeatLetters) // Tony Stark, the letter 'T' => 2 times.
+```
+
+n1) Ahora muestra por consola que letras NO se repiten y muestra tu nombre sin esas letras
+
+```javascript
+console.log(repeatLetters) // Tony Stark, the letters => o, n, y, s, a, r, k are not repeated, the name is => Ony Sark
+```
+
 ---
 
 ### Numbers
