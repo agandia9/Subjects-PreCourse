@@ -211,7 +211,3 @@ Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corporis, velit mo
 
 ---
 
-**Mini-Proyecto del <a href="mini-proj-final.md"> tema 8 </a>**
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatum, voluptate, dolor repellendus provident ratione facilis magni consequatur sit officiis optio voluptatem ad quos laudantium consequuntur placeat excepturi corrupti accusantium doloremque.
-
----
