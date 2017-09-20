@@ -38,7 +38,7 @@ Así, los objetivos del pre-curso son:
 	![](https://d3dr1ze7164817.cloudfront.net/items/0d2U2V0d2v3y0S0Z0r3I/Screen%20Recording%202017-03-20%20at%2012.01%20p.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=873490d0)<br>
 	[**Project: Bingo**](mini-proj.md)
 
-4. [Tema 4 - Challenges](challengesJS.md)<br> // 24 ejercicios.
+4. [Tema 4 - Challenges](challengesJS.md) // 24 ejercicios.<br>
 	Juntaremos todos los conocimientos de las sesiones anteriores, en estos challenges os pondremos a prueba.<br>
 	![](https://d3dr1ze7164817.cloudfront.net/items/2y1H0l3O0e2C290W2Z18/Screen%20Recording%202017-03-21%20at%2009.47%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=5353f902)<br>
 	[**Project: Pasapalabra**](mini-proj.md)
@@ -54,11 +54,11 @@ Así, los objetivos del pre-curso son:
 	 <a href="mini-proj.md">**Project: CSS Styling!**</a>
 
 7. [Tema 7 - JS-NATIVE/HTML/CSS](html-css-js.md)<br>
-	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
+	 Como unimos los tres bloques vistos durante este pre-curso? Entramos en Javascript orientado al navegador, manipulando el DOM (Document Object Model)<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 	 <a href="mini-proj.md">**Project: Calculator++!**</a>
 
 8. [Final Project](final.md)<br>
-	 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.<br />
+	 Poned en practica todo lo aprendido en un proyecto final que os servirá de entrada al curso. Enhorabuena! 🏃🏻<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/1U3g3V3m3x41292u2v08/Screen%20Recording%202017-03-21%20at%2009.59%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=2ab536e0" alt=""><br />
 	 <a href="mini-proj-final.md">**Project: Pasapalabra JS + HTML + CSS**</a>
