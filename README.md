@@ -23,22 +23,22 @@ Así, los objetivos del pre-curso son:
 
 ## Index:
 
-1. [Tema 1 - Methods](methods.md)<br>
+1. [Tema 1 - Methods](methods.md)<br> // 33 ejercicios.
 	Tratamiento de variables simples con funciones/métodos propios de cada tipo de variable, a fin de transformarlas y conseguir un output deseado.<br>
 	![](https://d3dr1ze7164817.cloudfront.net/items/3h2j0P3C441p1z2S150G/Screen%20Recording%202017-03-20%20at%2011.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=3e0b4c7d)<br>
 	[**Project: Calculator**](mini-proj.md)
 
-2. [Tema 2 - Objects](objects.md)<br>
+2. [Tema 2 - Objects](objects.md)<br> // 20 ejercicios.
 	En este tema aprenderemos los inicios en la persistencia de los datos, almacenándolos en objetos, muy diferentes de arrays. Listaremos sus propiedades, sacaremos sus valores, los trataremos y almacenaremos más datos.<br>
 	![](https://d3dr1ze7164817.cloudfront.net/items/0Q3Y3n382q3R1X1r2z0p/Screen%20Recording%202017-03-20%20at%2011.50%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=b2f62176)<br>
 	[**Project: Skylab Airline**](mini-proj.md)
 
-3. [Tema 3 - Functions](functions.md)<br>
+3. [Tema 3 - Functions](functions.md)<br> // 20 ejercicios.
 	Aprenderemos que és el concepto de modularización, partir el código en trozos más pequeños según su funcionalidad, llamadas a las mismas con y sin parámetros.<br>
 	![](https://d3dr1ze7164817.cloudfront.net/items/0d2U2V0d2v3y0S0Z0r3I/Screen%20Recording%202017-03-20%20at%2012.01%20p.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=873490d0)<br>
 	[**Project: Bingo**](mini-proj.md)
 
-4. [Tema 4 - Challenges](challengesJS.md)<br>
+4. [Tema 4 - Challenges](challengesJS.md)<br> // 24 ejercicios.
 	Juntaremos todos los conocimientos de las sesiones anteriores, en estos challenges os pondremos a prueba.<br>
 	![](https://d3dr1ze7164817.cloudfront.net/items/2y1H0l3O0e2C290W2Z18/Screen%20Recording%202017-03-21%20at%2009.47%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=5353f902)<br>
 	[**Project: Pasapalabra**](mini-proj.md)
