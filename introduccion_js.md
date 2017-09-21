@@ -101,25 +101,25 @@ if (a<b) {
 
 **Exercises:**
 
-a) Declara tu nombre: 
+a) Declara tu nombre y muéstralo por consola: 
 
 ```javascript
 console.log(name) //Mark
 ```
 
-b) Declara tu edad:
+b) Declara tu edad y muéstralo por consola:
 
 ```javascript
 console.log(age) //38
 ```
 
-c) Declara tu nombre, tu apellido y tu edad en un array en diferentes posiciones:
+c) Declara tu nombre, tu apellido y tu edad en un array en diferentes posiciones y muéstrala por consola:
 
 ```javascript
 console.log(info) //['Mark', 'Zuckerberg', 21]
 ```
 
-d) Declara tu nombre y tu edad dentro de un objeto:
+d) Declara tu nombre y tu edad dentro de un objeto y muéstralo por consola:
 
 ```javascript
 console.log(data) //{ name: 'Mark', age: 21}
@@ -141,5 +141,37 @@ var b = 12
 if( a < b) ...
 
 //25
+```
+
+f1) Crea otra condicion else if para contemplar la posibilidad de que los dos números sean iguales:
+```javascript
+var a = 25
+var b = 12
+else if(...)
+// The numbers are equal
+```
+
+g) Crea una array de 5 numeros, y recorrela, mostrando además un mensaje cuando, esté a la mitad, muestre un mensaje 'We are in the middle of loop'.
+```javascript
+for(...){
+    if(...){"We are in the middle of loop"}
+}
+```
+
+g1) Declara tu nombre y tu edad dos variables y crea un condicional para, en caso de no coincidir con tus datos, mostrar un error
+
+```javascript
+var myName...
+var myAge...
+if(oneThing && otherThing...){"this is not you!"}
+else{"Hi!! Glad to see u again!"}
+```
+
+g2) Crea una array, introduce los datos anteriores y unos cuantos más de forma que al recorrer la array, muestre un mensaje cuando encuentre tus datos.
+
+```javascript
+for(...){
+    if(...){"We find your data!" + data[...]}
+}
 ```
 
