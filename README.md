@@ -1,3 +1,5 @@
+<img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
+
 ### **Nota para los alumnos de la siguiente promocion de SkylabCoders:**
 ### **ESTAMOS REMODELANDO EL PRE-CURSO ⚠️**
 ### **LOS CONTENIDOS DEL MISMO IRÁN VARIANDO EN LAS PROXIMAS SEMANAS 👀**
