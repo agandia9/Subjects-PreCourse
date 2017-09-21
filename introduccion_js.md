@@ -99,7 +99,7 @@ if (a<b) {
 
 ---
 
-**Exercises:**
+**Exercises:** // faltan 5
 
 a) Declara tu nombre y muéstralo por consola: 
 
@@ -159,6 +159,7 @@ for(...){
 ```
 
 g1) Declara tu nombre y tu edad dos variables y crea un condicional para, en caso de no coincidir con tus datos, mostrar un error
+_Hint_: https://www.w3schools.com/js/js_comparisons.asp **(Logical Operators section)**
 
 ```javascript
 var myName...

@@ -25,7 +25,7 @@ Así, los objetivos del pre-curso son:
 
 #### [Antes de empezar, preparemos el entorno de desarrollo](start.md)<br>
 
-0. [Tema 0 - Var, Loops, Conditionals](introduccion_js.md)<br>
+0. [Tema 0 - Var, Loops, Conditionals](introduccion_js.md) //15 ejercicios. <br>
 	Declaracion de variables, repetir ciertas operaciones X veces o recorrer datos mediante Loops FOR, contemplar casos de comportamiento mediante condicionales IF.<br>
 	![](https://d3dr1ze7164817.cloudfront.net/items/3h2j0P3C441p1z2S150G/Screen%20Recording%202017-03-20%20at%2011.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=3e0b4c7d)<br>
 	[**Project: Calculator**](mini-proj.md)
