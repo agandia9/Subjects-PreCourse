@@ -158,7 +158,7 @@ for(...){
 }
 ```
 
-g1) Declara tu nombre y tu edad dos variables y crea un condicional para, en caso de no coincidir con tus datos, mostrar un error
+g1) Declara tu nombre y tu edad dos variables y crea un condicional para, en caso de no coincidir con tus datos, mostrar un error<br>
 _Hint_: https://www.w3schools.com/js/js_comparisons.asp **(Logical Operators section)**
 
 ```javascript
