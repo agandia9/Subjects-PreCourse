@@ -55,19 +55,19 @@ Así, los objetivos del pre-curso son:
 5. [Tema 5 - HTML](HTML.md)<br>
 	 Aprenderemos los fundamentos de HTML. Del primero trabajaremos su estructura básica, sus tags principales: como juntarlos y mostrar información según un estilo.<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
-	 <a href="mini-proj.md">**Project: HTML Markup!**</a>
+	 [**Project: HTML Markup!**](mini-proj.md)
 
 6. [Tema 6 - CSS](CSS.md)<br>
 	 Aprenderemos los principales selectores, propiedades de los principales tags, etc.<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
-	 <a href="mini-proj.md">**Project: CSS Styling!**</a>
+	 [**Project: CSS Styling!**](mini-proj.md)
 
 7. [Tema 7 - JS-NATIVE/HTML/CSS](html-css-js.md)<br>
 	 Como unimos los tres bloques vistos durante este pre-curso? Entramos en Javascript orientado al navegador, manipulando el DOM (Document Object Model).<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
-	 <a href="mini-proj.md">**Project: Calculator++!**</a>
+	 [**Project: Calculator++!**](mini-proj.md)
 
 8. [Final Project](final.md)<br>
 	 Poned en practica todo lo aprendido en un proyecto final que os servirá de entrada al curso. Enhorabuena! 🏃🏻<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/1U3g3V3m3x41292u2v08/Screen%20Recording%202017-03-21%20at%2009.59%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=2ab536e0" alt=""><br />
-	 <a href="mini-proj-final.md">**Project: Pasapalabra JS + HTML + CSS**</a>
+	 [**Project: Pasapalabra JS + HTML + CSS**](mini-proj.md)
