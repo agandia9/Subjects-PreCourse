@@ -22,15 +22,3 @@ a) Realiza el marcado semántico de las siguientes imágenes(**no styles(css)**,
 ## Forms
 **Resources** => https://www.w3schools.com/html/html_forms.asp
 ![snapshot](img/css03.png)
-
-## Basic Markup
-![snapshot](img/css1.jpg)
----
-![snapshot](img/css2.png)
----
-![snapshot](img/css3.jpg)
----
-![snapshot](img/css4.jpg)
----
-![snapshot](img/css5.jpg)
-
