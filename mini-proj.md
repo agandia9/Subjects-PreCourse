@@ -209,19 +209,10 @@ var questions = [
 ]
 ```
 
-
-**Mini-Proyecto del <a href="HTML.md"> tema 5 </a>**
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reprehenderit nesciunt velit vitae ipsa iste, ad deleniti tempore incidunt! Eius nobis veniam ea modi assumenda blanditiis accusamus magnam, tempora voluptates.
-
----
-
-**Mini-Proyecto del <a href="CSS.md"> tema 6 </a>**
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nesciunt, autem, fugit! Aliquam ullam doloribus atque voluptas consequatur laborum temporibus, maxime reiciendis id doloremque dolores dolorum nam animi ut dignissimos obcaecati.
-
 ---
 
 **Mini-Proyecto del <a href="html-css-js.md"> tema 7 </a>**
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sed corporis, velit modi dignissimos natus culpa odio, harum amet, in possimus architecto quibusdam provident doloribus aut consequuntur dolorem! Natus quas, a?
+Calculadora (primer proyecto), maquetación, estilos y lógico.
 
 ---
 

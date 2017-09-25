@@ -56,13 +56,11 @@ Así, los objetivos del pre-curso son:
 	 Aprenderemos los fundamentos de HTML. Del primero trabajaremos su estructura básica, sus tags principales: como juntarlos y mostrar información según un estilo.<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 	 <br>
-	 [**Project: HTML Markup!**](mini-proj.md)
 
 6. [Tema 6 - CSS](CSS.md)<br>
 	 Aprenderemos los principales selectores, propiedades de los principales tags, etc.<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/0d0e280i0B3N1s2u3h1j/Screen%20Recording%202017-03-21%20at%2009.53%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=c1b29176" alt="">
 	 <br>
-	 [**Project: CSS Styling!**](mini-proj.md)
 
 7. [Tema 7 - JS-NATIVE/HTML/CSS](html-css-js.md)<br>
 	 Como unimos los tres bloques vistos durante este pre-curso? Entramos en Javascript orientado al navegador, manipulando el DOM (Document Object Model).<br />
