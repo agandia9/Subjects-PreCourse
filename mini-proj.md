@@ -6,6 +6,8 @@
 
 Calculator! ➗➕
 
+http://68.media.tumblr.com/de1929de660b1b76d148b69e04a79402/tumblr_o8pup1GkBq1st5lhmo1_1280.jpg
+
 Haz una calculadora. Un único programa al que le pasarás dos parámetros y el usuario podrá visualizar por consola la suma, resta, multiplicación y división entre ambos números. El resultado debería ser mostrado con 3 decimales como mucho (En caso de que hubieran).
 El programa debe contemplar y actuar correctamente en el caso de que el usuario introduzca cualquier cosa que no sean números.
 

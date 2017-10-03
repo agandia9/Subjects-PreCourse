@@ -4,7 +4,7 @@ En el ```index.html``` tenemos que linquear el CSS para darle estilos y el JS pa
 
 El CSS lo linqueamos con el tag ```link``` y escribimos la ruta dónde se encuentra en el atributo ```href```.
 
-```
+```html
 <head>
     <meta charset="UTF-8">
     <title>My web page</title>
@@ -16,7 +16,7 @@ El CSS lo linqueamos con el tag ```link``` y escribimos la ruta dónde se encuen
 
 El JS lo linqueamos con el tag ```script``` al final, justo antes de cerrar el ```</body>``` y escribimos la ruta dónde se encuentra en el atributo ```src```.
 
-```
+```html
 <body>
     ..
     ...
