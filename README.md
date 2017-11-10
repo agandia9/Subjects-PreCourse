@@ -67,4 +67,3 @@ Así, los objetivos del pre-curso son:
 8. [Final Project](final.md)<br>
 	 Poned en practica todo lo aprendido en un proyecto final que os servirá de entrada al curso. Enhorabuena! 🏃🏻<br />
 	 <img src="https://d3dr1ze7164817.cloudfront.net/items/1U3g3V3m3x41292u2v08/Screen%20Recording%202017-03-21%20at%2009.59%20a.%20m..gif?X-CloudApp-Visitor-Id=2702484&v=2ab536e0" alt=""><br>
-	 [**Project: Pasapalabra JS + HTML + CSS**](mini-proj.md)
