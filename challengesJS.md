@@ -137,16 +137,11 @@ c6) El usuario podrá solo introducir letras, cada número del 0 al 9 correspond
 
 ```javascript
 var dictionary = {
-    0: ['A', 'K', 'T'],
-    1: ['B', 'L', 'U'],
-    2: ['C', 'M', 'V'],
-    3: ['D', 'N', 'W'],
-    4: ['E', 'Ñ', 'X'],
-    5: ['F', 'O', 'Y'],
-    6: ['G', 'P', 'Z'],
-    7: ['H', 'Q', '.'],
-    8: ['I', 'R', ','],
-    9: ['J', 'S', ' ']
+    0: ['A', 'K', 'T', 'F', 'O', 'Y'],
+    1: ['B', 'L', 'U', 'G', 'P', 'Z'],
+    2: ['C', 'M', 'V', 'H', 'Q', '.'],
+    3: ['D', 'N', 'W', 'I', 'R', ','],
+    4: ['E', 'Ñ', 'X', 'J', 'S', ' '],
 }
 function codeScript("HI  ", "WE  ", "NEED", "HELP"){}
 "HI__" = "dictionary[7][0]+dictionary[8][0]+dictionary[9][2]+dictionary[9][2]..."
