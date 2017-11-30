@@ -1,6 +1,6 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
-## Functions JS
+## Functions JS.
 
 _Resources to check:
 
