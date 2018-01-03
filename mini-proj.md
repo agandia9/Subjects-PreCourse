@@ -1,10 +1,10 @@
 <img src="http://www.skylabcoders.com/images/403/default.png" alt="Skylab" style="width:200px;height:45px;">
 
-## Challenges Pre-course
+# Challenges Pre-course
 
-**Mini-Proyecto del <a href="methods.md"> tema 1</a>**
+## **Mini-Proyecto del <a href="methods.md"> tema 1</a>**
 
-Calculator! ➗➕
+### Calculator! ➗➕
 
 http://68.media.tumblr.com/de1929de660b1b76d148b69e04a79402/tumblr_o8pup1GkBq1st5lhmo1_1280.jpg
 
@@ -45,9 +45,9 @@ prompt("New numbers? y/n")
 
 ---
 
-**Mini-Proyecto del <a href="objects.md"> tema 2 </a>**
+## **Mini-Proyecto del <a href="objects.md"> tema 2 </a>**
 
-Skylab Airlines! ✈️🛩
+### Skylab Airlines! ✈️🛩
 
 *(Los datos de los vuelos están al final del enunciado, podéis usarlos en vuestro código)*
 
@@ -97,10 +97,10 @@ console.log(flights[0].to) //output: New York
 
 ---
 
-**Mini-Proyecto del <a href="functions.md"> tema 3 </a>**
+## **Mini-Proyecto del <a href="functions.md"> tema 3 </a>**
 
 
-BINGO GAME! 🎲🎰
+### BINGO GAME! 🎲🎰
 
 Realiza un programa que simule un Bingo. Cuando se ejecute, pedirá el nombre del jugador y deberá guardarse. Durante el primer turno se mostrará un cartón con 15 números (excluyendo el 0 siempre), para pasar al siguiente turno el usuario deberá confirmar mediante confirm() visualizándose otro número, si coincide con alguno de los existentes en el cartón, cambiará por una "X" o un 0. El cartón se mostrará, al final de cada turno, con los cambios efectuados, indicándole al usuario qué número se ha encontrado.
 El programa deberá preguntar al usuario al inicio de cada turno si desea continuar, en caso de que se continúe, seguirá el mismo patrón que hasta el momento.
@@ -109,19 +109,32 @@ Por supuesto, cuando todos los números de una misma linea estén en "X", mostra
 
 Cuando el juego concluya, deberá decirle al usuario en cuantos turnos se ha completado el cartón. Por último, deberá preguntar si desea volver a jugar.
 
-```javascript
-Secuence:
->>> bingo()
-<<< prompt('Tell me, who are you?')
->>> Hello *name*, ready to play? This is your card:
-...
-<<< confirm('Next turn, you confirm?') // true / false
->>> We find 1 match! This is the status of your card now:
-...
-...
->>> Congrats! You finish the Bingo game in X turns! Do you want to play again?
-<<< confirm('Play again?') // true / false
-```
+_Hint:_
+
+### **Empieza por la versión más básica!**
+
+#### *Why?*:
+Comenzar por una versión muy pequeña y básica nos hará tener un programa de principio a fin, es decir, que empieza, que acaba y haga lo que queramos a muy pequeña escala, una vez lo tengamos todo bien dividido podremos empezar a extenderlo tanto como queramos. 
+
+Si funciona con 5 números deberá funcionar con 15, no? 😁
+
+#### *Requisitos de la versión mínima*:
+Cartón con solo 5 números, sin necesidad de ser generados random.
+Solo necesitamos un número random cuando recorramos el cartón y veamos si hay alguna coincidencia.
+No necesitamos asegurarnos que el número random de cada turno no haya salido en turnos anteriores, recuerda que estamos en la mínima versión posible, eso ya lo solucionaremos.
+Si hay coincidencia, remplazaremos el número por una 'x' y mostramos el cartón modificado
+
+Sepáralo todo en funciones, englobado en una funcion global llamada bingo(), tal que:
+
+-*Function!* => Generar Numero Random Bombo
+
+-*Function!* => Nuevo turno (Match carton[i] === randomNum)
+
+-*Function!* => Preguntar Nuevo Turno
+
+#### *WorkFlow*:
+
+<img src="img/bingo-flow.png" alt="">
 
 **Pro** 👊🏼
 - Cuando se muestre la carta, se preguntará al usuario si realmente quiere ese cartón o generar otro, si realmente quiere ese cartón, deberá responder "yes" para proceder
@@ -152,9 +165,9 @@ var bingoCard = [
 
 ---
 
-**Mini-Proyecto del <a href="challengesJS.md"> tema 4 </a>**
+## **Mini-Proyecto del <a href="challengesJS.md"> tema 4 </a>**
 
-Pasapalabra Game! (Final JS) 🎮⁉️
+### Pasapalabra Game! (Final JS) 🎮⁉️
 
 Resource: https://www.youtube.com/watch?v=xJp2c_rcHDc
 
@@ -213,8 +226,9 @@ var questions = [
 
 ---
 
-**Mini-Proyecto del <a href="html-css-js.md"> tema 7 </a>**
-Calculadora (primer proyecto), maquetación, estilos y lógico.
+## **Mini-Proyecto del <a href="html-css-js.md"> tema 7 </a>**
+
+### Calculadora (primer proyecto), maquetación, estilos y lógico.
 
 ---
 

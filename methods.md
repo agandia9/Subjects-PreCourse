@@ -179,8 +179,7 @@ console.log(...(10.34)) // 11!
 ```
 *Hint* => https://www.w3schools.com/jsref/jsref_round.asp
 
-d) Hagamos una calculadora. Primero, la suma.  
-We can do a calculator, so let's do it! first, do a sum with two numbers
+d) Hagamos una calculadora. Primero, la suma.
 ```javascript
 console.log(sum) //The sum of 7+3 is 10
 ```
