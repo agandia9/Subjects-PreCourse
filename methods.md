@@ -7,10 +7,11 @@ http://www.w3schools.com/js/functions.asp
 *Simple JS Methods for example.*
 
 ```javascript
-var today, someday, text;
+var today, someday, text; // Fíjate como hemos declarado tres variables y les asignamos valores más adelante.
 today = new Date();
 someday = new Date();
-someday.setFullYear(2100, 0, 14);
+
+someday.setFullYear(2100, 0, 14); // Investiga el método [setFullYear](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date/setFullYear)
 
 if (someday > today) {
     text = "Today is before January 14, 2100.";
@@ -20,49 +21,58 @@ if (someday > today) {
 console.log(text)
 
 ```
-👆🏼 Estos ejercicios se deberán hacer exclusivamente usando **METODOS**
+
+Estos ejercicios se deberán hacer exclusivamente usando **METODOS**
 
 ---
 
 
 ### Strings
 a) Puedes contar cuantas letras tiene tu nombre? 
+
 ```javascript
 console.log(myName) // My Name has 4 letters 
 ```
-**Check this:** http://bfy.tw/AlDi 👈🏼
+**Check this to know how to use Google to solve your doubts:** http://bfy.tw/AlDi 👈🏼
 
-b) Añade tu apellido e indica en que posición se encuentra
+b) Añade tu apellido e indica en que posición del string empieza (prueba a buscar el espacio entre el nombre y el apellido):
+
 ```javascript
-console.log(myString)// Your first last name starts on position 5
+console.log(myString)// Your last name starts on position 5
 ```
  
-c) Ahora, con tu apellido y nombre en la misma variable, muestra solo el nombre.
+c) Ahora, con tu apellido y nombre en la misma variable, muestra solo el nombre (lo que haya antes del espacio):
+
 ```javascript
 console.log(myString) // My Name is Tony 
 ```
  
 d) Ahora, solo tu apellido.
+
 ```javascript
 console.log(myString) // My lastname is Stark
 ```
 
 d1) Iguala el resultado a una variable nueva e imprímela por pantalla.
+
 ```javascript
 console.log(myFirstString +", " + myNewString) // Tony Stark, Stark
 ```
 
 e) Ahora, reemplaza tu nombre por "Mr/Ms" y vuelve a mostrar la variable con los cambios. 
+
 ```javascript
 console.log(myNewString) // Hello, Mr. Stark 
 ```
  
 f) Selecciona tu apellido y transfórmalo a MAYÚSCULAS.
+
 ```javascript
 console.log(mySelection) // my lastname is STARK
 ```
 
 g) Ahora declara una variable nueva e igualala a la anterior variable sumándole, además, un mensaje.
+
 ```javascript
 var something = myFirstString + "is awesome"
 console.log(something) \\ "Tony is awesome"
@@ -70,6 +80,7 @@ console.log(something) \\ "Tony is awesome"
 ```
 
 h) Ahora, puedes seleccionar la inicial de tu nombre y apellido y mostrarlas por pantalla?
+
 ```javascript
 console.log(myFirstLastnameLetters) // S.Y
 ```
@@ -78,44 +89,54 @@ console.log(myFirstLastnameLetters) // S.Y
 
 ### Arrays
 a) Declara tu nombre completo en una array y muéstralo por pantalla separando cada letra por "/"
+
 ```javascript
 console.log(myName) // T/O/N/Y/S/T/A/R/K
 ```
 
 b) Ahora solo selecciona tu apellido y muestra cada letra separada por "|"
+
 ```javascript
 console.log(myName) // S|T|A|R|K
 ```
 
 c) Ahora muestra cada letra de tu **nombre** con su posición (necesitarás un bucle **for**)
+
 ```javascript
 console.log(myName) // 1º T, 2º O, 3º N, 4º Y
 ```
+
 Resource: https://www.w3schools.com/jsref/jsref_split.asp
 
 d)Como en el ejercicio anterior, pero seleccionando tu apellido
+
 ```javascript
 console.log(myLastName) // 5º S, 6º T, 7º A, 8º R, 9º K
 ```
+
 Resource: https://www.w3schools.com/jsref/jsref_length_array.asp
 
 e) Puedes indicarme las iniciales de tu nombre y apellido? Como en el **ejercicio h** de la sección de strings
+
 ```javascript
 console.log(myInitials) // T.S
 ```
 
 f) Ahora, reformula la array, introduciendo tu nombre en primera posición, tu apellido en segunda, y además añade en otra posicion tu edad.
 Muestra por pantalla solo tu nombre y tu edad en un solo mensaje.
+
 ```javascript
 console.log(mySelector) // My name is TONY and i'm 40 years old
 ```
 
 g) Prepara una función para añadir tu City a la array, muestra un mensaje mostrando el contenido de toda la array, así aseguraremos los cambios.
+
 ```javascript
 console.log(myCityAdd) // City added to array! => Tony, Stark, 40, New York
 ```
 
 h) Crea ahora, una funcion para eliminar la variable City y asegura los cambios.
+
 ```javascript
 myCityAdd() // City added to array! => Tony, Stark, 40, New York
 myCityDelete() // City deleted! => Tony, Stark, 40
@@ -128,6 +149,7 @@ k) Quiero volver a introducir mi nombre pero si lo introduzco utilizando push() 
 Resources: https://www.w3schools.com/jsref/jsref_splice.asp
 
 l) Ahora, declara una array con los números del 0 a 10 y muestra cada número multiplicado por dos.
+
 ```javascript
 numbers = [...]
 var multByTwo = numbers.map(...)
@@ -149,6 +171,7 @@ m) Podrías mostrarlos en el orden inverso?
 Resources: https://www.w3schools.com/jsref/jsref_sort.asp
 
 n) Puedes indicarme que letras se repiten de tu nombre y cuantas veces?
+
 ```javascript
 console.log(repeatLetters) // Tony Stark, the letter 'T' => 2 times.
 ```
@@ -163,50 +186,57 @@ console.log(repeatLetters) // Tony Stark, the letters => o, n, y, s, a, r, k are
 
 ### Numbers
 a) Que hora es? Declara la hora como número y devuelvela como String 
+
 ```javascript
 console.log(myString + myNumberStringify) // I'ts 10.45 of morning
 ```
 *Hint* => https://www.w3schools.com/jsref/jsref_tostring_number.asp
 
-b) Nono, que hora exactamente? Dime la hora sin minutos 
+b) Nono, que hora exactamente? Dime la hora sin minutos!
+
 ```javascript
 console.log(myString) // It's around 10 of morning
 ```
 
 c) Ahora, declara tu hora y muéstrala redondeada.
+
 ```javascript
 console.log(...(10.34)) // 11!
 ```
 *Hint* => https://www.w3schools.com/jsref/jsref_round.asp
 
-d) Hagamos una calculadora. Primero, la suma.
+d) Hagamos una calculadora. Primero, la suma. Crea variables con valores distintos y súmalos.
+
 ```javascript
 console.log(sum) //The sum of 7+3 is 10
 ```
 
 d1) Añade la resta...
+
 ```javascript
 console.log(sum + rest) // The sum and rest of 7 and 3 is 10 and 4 
 ```
 
-d2) Y la multiplicación
+d2) La multiplicación...
+
 ```javascript
 console.log(sum + rest + mult) // 10, 4 and 21
 ```
 
-d3) Por ultimo, la división
+d3) Y, por ultimo, la división.
+
 ```javascript
 console.log(sum + rest + mult + div) // 10, 4, 21 and 2.3
 ```
 
 d4) Ahora, intenta multiplicar un número por una string, que devuelve?
+
 ```javascript
 console.log(10*"hour") // ....?!
 ```
 
 e) Podemos controlar este error con un condicional **if**?
+
 ```javascript
 console.log(10*"hour") // You can't do this operation!
 ```
-
-
